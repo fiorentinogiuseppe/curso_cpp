@@ -84,7 +84,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/giuseppe/CLionProjects/cpp/main.cpp">
+		<Unit filename="/home/giuseppe/CLionProjects/cpp/secao_1/PrimeiroCodigo/secao1.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/home/giuseppe/CLionProjects/cpp/secao_1/PrimeiroCodigo/secao2.cpp">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/home/giuseppe/CLionProjects/cpp/CMakeLists.txt">

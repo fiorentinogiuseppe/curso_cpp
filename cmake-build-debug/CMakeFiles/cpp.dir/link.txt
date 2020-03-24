@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/cpp.dir/main.cpp.o  -o cpp 
+/usr/bin/c++  -g   CMakeFiles/cpp.dir/secao_1/PrimeiroCodigo/secao2.cpp.o CMakeFiles/cpp.dir/secao_1/PrimeiroCodigo/secao1.cpp.o  -o cpp 

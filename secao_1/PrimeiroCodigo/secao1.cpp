@@ -1,3 +1,6 @@
+//
+// Created by giuseppe on 23/03/2020.
+//
 #include <iostream>
 
 // A diretiva de pré-processador #include
@@ -5,7 +8,7 @@
 // iostream
 
 
-int main()
+int introducao()
 // funcao principal. Todo programa C++ começa
 // com esta funcao principal main()
 {   // chavas
