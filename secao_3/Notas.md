@@ -35,13 +35,13 @@ Focando em detalhes necessários, importantes e essenciais.
  
 ## Processo de Build C++ Código Fonte e Pré-Processamento
 ### Pre processador
- * Configura o codigo fonte para o compilador e ocorre antes da compilação. Executando diretivas de 
- pre-processamento e opu fazem determinadas modificacoes no arquivo fonte
+ * Configura o código fonte para o compilador e ocorre antes da compilação. Executando diretivas de
+ pré-processamento e ou fazem determinadas modificações no arquivo fonte
 ### Include
- * Instrui o pre processador a incluir no programa o conteudo do arquivo de cabeçalho indicado 
- * <> - O arquivo header é buscado nos lugares indicados por uma variavel do sistema chamado library path
- * "" - O arquivo header é buscado no caminho indicado. Caso so esteja o nome sera buscado no diretorio atual
+ * Instrui o pré processador a incluir no programa o conteúdo do arquivo de cabeçalho indicado
+ * <> - O arquivo header é buscado nos lugares indicados por uma variável do sistema chamado library path
+ * "" - O arquivo header é buscado no caminho indicado. Caso só esteja o nome será buscado no diretório atual
 ### Typedef
  * Cria alias para tipos de dados existente.
- * Da mais trabalho para o pre processador
+ * Da mais trabalho para o pré processador
  ### Compilação
