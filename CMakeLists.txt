@@ -3,4 +3,4 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(cpp secao_1/PrimeiroCodigo/secao2.cpp secao_1/PrimeiroCodigo/secao1.cpp)
+add_executable(cpp secao_1_2/PrimeiroCodigo/secao2.cpp secao_1_2/PrimeiroCodigo/secao1.cpp)
