@@ -37,11 +37,29 @@ Focando em detalhes necessários, importantes e essenciais.
 ### Pre processador
  * Configura o código fonte para o compilador e ocorre antes da compilação. Executando diretivas de
  pré-processamento e ou fazem determinadas modificações no arquivo fonte
-### Include
+
+### Compilador
+ * Programa de computador que converte um codigo fonte em um programa equvalente escrito em linguagem de maquina.
+ Cria-se um object file. Verifica se existe algum erro de sintaxe, traduz para codigo de maquina e caso tenha algum erro
+ ele retorna alguma informação caso não tenha erro gera o codigo objeto
+ #### Codigo objeto
+  * Resultado da compilação do codigo fonte. Gera codigo de maquina incompleto. Ainda sendo necessario linkar com as 
+  bibliotecas referenciadas no codigo.
+ ### Linker 
+  * Pega o codigo objeto adiciona bibliotecas e converte para algum executavel.
+ ### Loader
+  * Carrega o programa na memoria RAM do computador
+ ### Execucao
+  * A CPU executa o programa instrução por instrução.
+### Include 
+ * \# - diretiva de pre-processador
  * Instrui o pré processador a incluir no programa o conteúdo do arquivo de cabeçalho indicado
  * <> - O arquivo header é buscado nos lugares indicados por uma variável do sistema chamado library path
  * "" - O arquivo header é buscado no caminho indicado. Caso só esteja o nome será buscado no diretório atual
+ * .h - não é uma biblioteca sao apenas arquivos de definicoes, apenas na linkedinção que ocorre a inclusao da biblioteca
 ### Typedef
  * Cria alias para tipos de dados existente.
  * Da mais trabalho para o pré processador
  ### Compilação
+### Key word 
+ * Palavras reservadas que não pode ser utilizadas

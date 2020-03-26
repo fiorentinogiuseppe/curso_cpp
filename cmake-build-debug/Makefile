@@ -123,59 +123,59 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_1/PrimeiroCodigo/secao1.o: secao_1/PrimeiroCodigo/secao1.cpp.o
+secao_1_2/PrimeiroCodigo/secao1.o: secao_1_2/PrimeiroCodigo/secao1.cpp.o
 
-.PHONY : secao_1/PrimeiroCodigo/secao1.o
-
-# target to build an object file
-secao_1/PrimeiroCodigo/secao1.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1/PrimeiroCodigo/secao1.cpp.o
-.PHONY : secao_1/PrimeiroCodigo/secao1.cpp.o
-
-secao_1/PrimeiroCodigo/secao1.i: secao_1/PrimeiroCodigo/secao1.cpp.i
-
-.PHONY : secao_1/PrimeiroCodigo/secao1.i
-
-# target to preprocess a source file
-secao_1/PrimeiroCodigo/secao1.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1/PrimeiroCodigo/secao1.cpp.i
-.PHONY : secao_1/PrimeiroCodigo/secao1.cpp.i
-
-secao_1/PrimeiroCodigo/secao1.s: secao_1/PrimeiroCodigo/secao1.cpp.s
-
-.PHONY : secao_1/PrimeiroCodigo/secao1.s
-
-# target to generate assembly for a file
-secao_1/PrimeiroCodigo/secao1.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1/PrimeiroCodigo/secao1.cpp.s
-.PHONY : secao_1/PrimeiroCodigo/secao1.cpp.s
-
-secao_1/PrimeiroCodigo/secao2.o: secao_1/PrimeiroCodigo/secao2.cpp.o
-
-.PHONY : secao_1/PrimeiroCodigo/secao2.o
+.PHONY : secao_1_2/PrimeiroCodigo/secao1.o
 
 # target to build an object file
-secao_1/PrimeiroCodigo/secao2.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1/PrimeiroCodigo/secao2.cpp.o
-.PHONY : secao_1/PrimeiroCodigo/secao2.cpp.o
+secao_1_2/PrimeiroCodigo/secao1.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao1.cpp.o
+.PHONY : secao_1_2/PrimeiroCodigo/secao1.cpp.o
 
-secao_1/PrimeiroCodigo/secao2.i: secao_1/PrimeiroCodigo/secao2.cpp.i
+secao_1_2/PrimeiroCodigo/secao1.i: secao_1_2/PrimeiroCodigo/secao1.cpp.i
 
-.PHONY : secao_1/PrimeiroCodigo/secao2.i
+.PHONY : secao_1_2/PrimeiroCodigo/secao1.i
 
 # target to preprocess a source file
-secao_1/PrimeiroCodigo/secao2.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1/PrimeiroCodigo/secao2.cpp.i
-.PHONY : secao_1/PrimeiroCodigo/secao2.cpp.i
+secao_1_2/PrimeiroCodigo/secao1.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao1.cpp.i
+.PHONY : secao_1_2/PrimeiroCodigo/secao1.cpp.i
 
-secao_1/PrimeiroCodigo/secao2.s: secao_1/PrimeiroCodigo/secao2.cpp.s
+secao_1_2/PrimeiroCodigo/secao1.s: secao_1_2/PrimeiroCodigo/secao1.cpp.s
 
-.PHONY : secao_1/PrimeiroCodigo/secao2.s
+.PHONY : secao_1_2/PrimeiroCodigo/secao1.s
 
 # target to generate assembly for a file
-secao_1/PrimeiroCodigo/secao2.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1/PrimeiroCodigo/secao2.cpp.s
-.PHONY : secao_1/PrimeiroCodigo/secao2.cpp.s
+secao_1_2/PrimeiroCodigo/secao1.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao1.cpp.s
+.PHONY : secao_1_2/PrimeiroCodigo/secao1.cpp.s
+
+secao_1_2/PrimeiroCodigo/secao2.o: secao_1_2/PrimeiroCodigo/secao2.cpp.o
+
+.PHONY : secao_1_2/PrimeiroCodigo/secao2.o
+
+# target to build an object file
+secao_1_2/PrimeiroCodigo/secao2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao2.cpp.o
+.PHONY : secao_1_2/PrimeiroCodigo/secao2.cpp.o
+
+secao_1_2/PrimeiroCodigo/secao2.i: secao_1_2/PrimeiroCodigo/secao2.cpp.i
+
+.PHONY : secao_1_2/PrimeiroCodigo/secao2.i
+
+# target to preprocess a source file
+secao_1_2/PrimeiroCodigo/secao2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao2.cpp.i
+.PHONY : secao_1_2/PrimeiroCodigo/secao2.cpp.i
+
+secao_1_2/PrimeiroCodigo/secao2.s: secao_1_2/PrimeiroCodigo/secao2.cpp.s
+
+.PHONY : secao_1_2/PrimeiroCodigo/secao2.s
+
+# target to generate assembly for a file
+secao_1_2/PrimeiroCodigo/secao2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao2.cpp.s
+.PHONY : secao_1_2/PrimeiroCodigo/secao2.cpp.s
 
 # Help Target
 help:
@@ -186,12 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cpp"
 	@echo "... edit_cache"
-	@echo "... secao_1/PrimeiroCodigo/secao1.o"
-	@echo "... secao_1/PrimeiroCodigo/secao1.i"
-	@echo "... secao_1/PrimeiroCodigo/secao1.s"
-	@echo "... secao_1/PrimeiroCodigo/secao2.o"
-	@echo "... secao_1/PrimeiroCodigo/secao2.i"
-	@echo "... secao_1/PrimeiroCodigo/secao2.s"
+	@echo "... secao_1_2/PrimeiroCodigo/secao1.o"
+	@echo "... secao_1_2/PrimeiroCodigo/secao1.i"
+	@echo "... secao_1_2/PrimeiroCodigo/secao1.s"
+	@echo "... secao_1_2/PrimeiroCodigo/secao2.o"
+	@echo "... secao_1_2/PrimeiroCodigo/secao2.i"
+	@echo "... secao_1_2/PrimeiroCodigo/secao2.s"
 .PHONY : help
 
 
