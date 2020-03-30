@@ -90,6 +90,9 @@
 		<Unit filename="/home/giuseppe/CLionProjects/cpp/secao_1_2/PrimeiroCodigo/secao2.cpp">
 			<Option target="cpp"/>
 		</Unit>
+		<Unit filename="/home/giuseppe/CLionProjects/cpp/secao_4/Variaveis.cpp">
+			<Option target="cpp"/>
+		</Unit>
 		<Unit filename="/home/giuseppe/CLionProjects/cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

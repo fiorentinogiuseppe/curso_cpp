@@ -47,7 +47,7 @@ void e4(){
      */
 }
 
-int main(){
+int call(){
     e1();
     e2();
     e3();

@@ -177,6 +177,33 @@ secao_1_2/PrimeiroCodigo/secao2.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao2.cpp.s
 .PHONY : secao_1_2/PrimeiroCodigo/secao2.cpp.s
 
+secao_4/Variaveis.o: secao_4/Variaveis.cpp.o
+
+.PHONY : secao_4/Variaveis.o
+
+# target to build an object file
+secao_4/Variaveis.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.o
+.PHONY : secao_4/Variaveis.cpp.o
+
+secao_4/Variaveis.i: secao_4/Variaveis.cpp.i
+
+.PHONY : secao_4/Variaveis.i
+
+# target to preprocess a source file
+secao_4/Variaveis.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.i
+.PHONY : secao_4/Variaveis.cpp.i
+
+secao_4/Variaveis.s: secao_4/Variaveis.cpp.s
+
+.PHONY : secao_4/Variaveis.s
+
+# target to generate assembly for a file
+secao_4/Variaveis.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.s
+.PHONY : secao_4/Variaveis.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... secao_1_2/PrimeiroCodigo/secao2.o"
 	@echo "... secao_1_2/PrimeiroCodigo/secao2.i"
 	@echo "... secao_1_2/PrimeiroCodigo/secao2.s"
+	@echo "... secao_4/Variaveis.o"
+	@echo "... secao_4/Variaveis.i"
+	@echo "... secao_4/Variaveis.s"
 .PHONY : help
 
 
