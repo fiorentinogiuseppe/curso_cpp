@@ -3,15 +3,8 @@
 //
 
 #include <iostream>
-
-void  sistema(const std::string& value){
-    if(value == "PAUSE"){
-        std::cout << "Press Enter..." << std::endl;
-        std::cin.ignore();
-    }
-}
-
-int main(){
+#include "utils.h"
+int print(){
 
     int NumVidas = 5; // indicacao de alocacao de memoria para uma variavel do tipo inteiro
     int Score = 1350; // indicacao de alocacao de memoria para uma variavel do tipo inteiro

@@ -31,3 +31,25 @@
    * Tipo logico 
  * void
    * Ausencia de tipo
+
+## Regras para declaracar variaveis
+ * Letras, numero ou _
+ * Inicia com letras ou _
+ * Nao pode utilizar palavras reservadas da linguagem c++
+ * Declaracao antes da utilizacao
+
+## Tipo inteiro: int
+ * 4bytes
+ * com sinal
+ * intervalo de -2.147.483.648 a 2.147.483.647
+
+## Tipo ponto flutuante: double/float
+ * Numero reais
+ * Float
+    * 4bytes
+    * Intervalo 3.4E +/- 38 (7 digitos)
+ * Double
+    * 8bytes
+    * Intervalo 1.74E +/- 308 (15 digitos)
+
+## Tipo caracter: char e as Codificações ASCII e UNICODE
