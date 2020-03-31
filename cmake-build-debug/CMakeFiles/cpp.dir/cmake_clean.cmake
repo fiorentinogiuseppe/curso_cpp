@@ -1,7 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao1.cpp.o"
   "CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao2.cpp.o"
+  "CMakeFiles/cpp.dir/secao_4/Constantes.cpp.o"
+  "CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.o"
+  "CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.o"
+  "CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.o"
   "CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.o"
+  "CMakeFiles/cpp.dir/secao_4/utils.cpp.o"
   "cpp"
   "cpp.pdb"
 )

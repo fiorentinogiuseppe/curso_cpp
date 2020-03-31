@@ -6,7 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/home/giuseppe/CLionProjects/cpp/secao_1/PrimeiroCodigo/secao2.cpp
+/home/giuseppe/CLionProjects/cpp/secao_1_2/PrimeiroCodigo/secao1.cpp
+iostream
+-
+
+/home/giuseppe/CLionProjects/cpp/secao_1_2/PrimeiroCodigo/secao2.cpp
+iostream
+-
+
+/home/giuseppe/CLionProjects/cpp/secao_4/Exercicio_1.cpp
+iostream
+-
+utils.h
+/home/giuseppe/CLionProjects/cpp/secao_4/utils.h
+
+/home/giuseppe/CLionProjects/cpp/secao_4/TiposVariaveis.cpp
+iostream
+-
+utils.h
+/home/giuseppe/CLionProjects/cpp/secao_4/utils.h
+
+/home/giuseppe/CLionProjects/cpp/secao_4/Variaveis.cpp
+iostream
+-
+utils.h
+/home/giuseppe/CLionProjects/cpp/secao_4/utils.h
+
+/home/giuseppe/CLionProjects/cpp/secao_4/utils.cpp
+utils.h
+/home/giuseppe/CLionProjects/cpp/secao_4/utils.h
+
+/home/giuseppe/CLionProjects/cpp/secao_4/utils.h
 iostream
 -
 

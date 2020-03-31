@@ -96,11 +96,81 @@ CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppe/CLionProjects/cpp/secao_4/Variaveis.cpp -o CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.s
 
+CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.o: ../secao_4/TiposVariaveis.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppe/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.o -c /home/giuseppe/CLionProjects/cpp/secao_4/TiposVariaveis.cpp
+
+CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppe/CLionProjects/cpp/secao_4/TiposVariaveis.cpp > CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.i
+
+CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppe/CLionProjects/cpp/secao_4/TiposVariaveis.cpp -o CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.s
+
+CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.o: ../secao_4/Exercicio_1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppe/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.o -c /home/giuseppe/CLionProjects/cpp/secao_4/Exercicio_1.cpp
+
+CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppe/CLionProjects/cpp/secao_4/Exercicio_1.cpp > CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.i
+
+CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppe/CLionProjects/cpp/secao_4/Exercicio_1.cpp -o CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.s
+
+CMakeFiles/cpp.dir/secao_4/utils.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/secao_4/utils.cpp.o: ../secao_4/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppe/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/cpp.dir/secao_4/utils.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_4/utils.cpp.o -c /home/giuseppe/CLionProjects/cpp/secao_4/utils.cpp
+
+CMakeFiles/cpp.dir/secao_4/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_4/utils.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppe/CLionProjects/cpp/secao_4/utils.cpp > CMakeFiles/cpp.dir/secao_4/utils.cpp.i
+
+CMakeFiles/cpp.dir/secao_4/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_4/utils.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppe/CLionProjects/cpp/secao_4/utils.cpp -o CMakeFiles/cpp.dir/secao_4/utils.cpp.s
+
+CMakeFiles/cpp.dir/secao_4/Constantes.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/secao_4/Constantes.cpp.o: ../secao_4/Constantes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppe/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/cpp.dir/secao_4/Constantes.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_4/Constantes.cpp.o -c /home/giuseppe/CLionProjects/cpp/secao_4/Constantes.cpp
+
+CMakeFiles/cpp.dir/secao_4/Constantes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_4/Constantes.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppe/CLionProjects/cpp/secao_4/Constantes.cpp > CMakeFiles/cpp.dir/secao_4/Constantes.cpp.i
+
+CMakeFiles/cpp.dir/secao_4/Constantes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_4/Constantes.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppe/CLionProjects/cpp/secao_4/Constantes.cpp -o CMakeFiles/cpp.dir/secao_4/Constantes.cpp.s
+
+CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.o: ../secao_4/Exercicio_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppe/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.o -c /home/giuseppe/CLionProjects/cpp/secao_4/Exercicio_2.cpp
+
+CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppe/CLionProjects/cpp/secao_4/Exercicio_2.cpp > CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.i
+
+CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppe/CLionProjects/cpp/secao_4/Exercicio_2.cpp -o CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.s
+
 # Object files for target cpp
 cpp_OBJECTS = \
 "CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao2.cpp.o" \
 "CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao1.cpp.o" \
-"CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.o"
+"CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.o" \
+"CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.o" \
+"CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.o" \
+"CMakeFiles/cpp.dir/secao_4/utils.cpp.o" \
+"CMakeFiles/cpp.dir/secao_4/Constantes.cpp.o" \
+"CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
@@ -108,9 +178,14 @@ cpp_EXTERNAL_OBJECTS =
 cpp: CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao2.cpp.o
 cpp: CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao1.cpp.o
 cpp: CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.o
+cpp: CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.o
+cpp: CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.o
+cpp: CMakeFiles/cpp.dir/secao_4/utils.cpp.o
+cpp: CMakeFiles/cpp.dir/secao_4/Constantes.cpp.o
+cpp: CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giuseppe/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giuseppe/CLionProjects/cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

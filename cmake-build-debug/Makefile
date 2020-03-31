@@ -177,6 +177,114 @@ secao_1_2/PrimeiroCodigo/secao2.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao2.cpp.s
 .PHONY : secao_1_2/PrimeiroCodigo/secao2.cpp.s
 
+secao_4/Constantes.o: secao_4/Constantes.cpp.o
+
+.PHONY : secao_4/Constantes.o
+
+# target to build an object file
+secao_4/Constantes.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Constantes.cpp.o
+.PHONY : secao_4/Constantes.cpp.o
+
+secao_4/Constantes.i: secao_4/Constantes.cpp.i
+
+.PHONY : secao_4/Constantes.i
+
+# target to preprocess a source file
+secao_4/Constantes.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Constantes.cpp.i
+.PHONY : secao_4/Constantes.cpp.i
+
+secao_4/Constantes.s: secao_4/Constantes.cpp.s
+
+.PHONY : secao_4/Constantes.s
+
+# target to generate assembly for a file
+secao_4/Constantes.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Constantes.cpp.s
+.PHONY : secao_4/Constantes.cpp.s
+
+secao_4/Exercicio_1.o: secao_4/Exercicio_1.cpp.o
+
+.PHONY : secao_4/Exercicio_1.o
+
+# target to build an object file
+secao_4/Exercicio_1.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.o
+.PHONY : secao_4/Exercicio_1.cpp.o
+
+secao_4/Exercicio_1.i: secao_4/Exercicio_1.cpp.i
+
+.PHONY : secao_4/Exercicio_1.i
+
+# target to preprocess a source file
+secao_4/Exercicio_1.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.i
+.PHONY : secao_4/Exercicio_1.cpp.i
+
+secao_4/Exercicio_1.s: secao_4/Exercicio_1.cpp.s
+
+.PHONY : secao_4/Exercicio_1.s
+
+# target to generate assembly for a file
+secao_4/Exercicio_1.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.s
+.PHONY : secao_4/Exercicio_1.cpp.s
+
+secao_4/Exercicio_2.o: secao_4/Exercicio_2.cpp.o
+
+.PHONY : secao_4/Exercicio_2.o
+
+# target to build an object file
+secao_4/Exercicio_2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.o
+.PHONY : secao_4/Exercicio_2.cpp.o
+
+secao_4/Exercicio_2.i: secao_4/Exercicio_2.cpp.i
+
+.PHONY : secao_4/Exercicio_2.i
+
+# target to preprocess a source file
+secao_4/Exercicio_2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.i
+.PHONY : secao_4/Exercicio_2.cpp.i
+
+secao_4/Exercicio_2.s: secao_4/Exercicio_2.cpp.s
+
+.PHONY : secao_4/Exercicio_2.s
+
+# target to generate assembly for a file
+secao_4/Exercicio_2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.s
+.PHONY : secao_4/Exercicio_2.cpp.s
+
+secao_4/TiposVariaveis.o: secao_4/TiposVariaveis.cpp.o
+
+.PHONY : secao_4/TiposVariaveis.o
+
+# target to build an object file
+secao_4/TiposVariaveis.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.o
+.PHONY : secao_4/TiposVariaveis.cpp.o
+
+secao_4/TiposVariaveis.i: secao_4/TiposVariaveis.cpp.i
+
+.PHONY : secao_4/TiposVariaveis.i
+
+# target to preprocess a source file
+secao_4/TiposVariaveis.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.i
+.PHONY : secao_4/TiposVariaveis.cpp.i
+
+secao_4/TiposVariaveis.s: secao_4/TiposVariaveis.cpp.s
+
+.PHONY : secao_4/TiposVariaveis.s
+
+# target to generate assembly for a file
+secao_4/TiposVariaveis.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.s
+.PHONY : secao_4/TiposVariaveis.cpp.s
+
 secao_4/Variaveis.o: secao_4/Variaveis.cpp.o
 
 .PHONY : secao_4/Variaveis.o
@@ -204,6 +312,33 @@ secao_4/Variaveis.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.s
 .PHONY : secao_4/Variaveis.cpp.s
 
+secao_4/utils.o: secao_4/utils.cpp.o
+
+.PHONY : secao_4/utils.o
+
+# target to build an object file
+secao_4/utils.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/utils.cpp.o
+.PHONY : secao_4/utils.cpp.o
+
+secao_4/utils.i: secao_4/utils.cpp.i
+
+.PHONY : secao_4/utils.i
+
+# target to preprocess a source file
+secao_4/utils.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/utils.cpp.i
+.PHONY : secao_4/utils.cpp.i
+
+secao_4/utils.s: secao_4/utils.cpp.s
+
+.PHONY : secao_4/utils.s
+
+# target to generate assembly for a file
+secao_4/utils.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/utils.cpp.s
+.PHONY : secao_4/utils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,9 +354,24 @@ help:
 	@echo "... secao_1_2/PrimeiroCodigo/secao2.o"
 	@echo "... secao_1_2/PrimeiroCodigo/secao2.i"
 	@echo "... secao_1_2/PrimeiroCodigo/secao2.s"
+	@echo "... secao_4/Constantes.o"
+	@echo "... secao_4/Constantes.i"
+	@echo "... secao_4/Constantes.s"
+	@echo "... secao_4/Exercicio_1.o"
+	@echo "... secao_4/Exercicio_1.i"
+	@echo "... secao_4/Exercicio_1.s"
+	@echo "... secao_4/Exercicio_2.o"
+	@echo "... secao_4/Exercicio_2.i"
+	@echo "... secao_4/Exercicio_2.s"
+	@echo "... secao_4/TiposVariaveis.o"
+	@echo "... secao_4/TiposVariaveis.i"
+	@echo "... secao_4/TiposVariaveis.s"
 	@echo "... secao_4/Variaveis.o"
 	@echo "... secao_4/Variaveis.i"
 	@echo "... secao_4/Variaveis.s"
+	@echo "... secao_4/utils.o"
+	@echo "... secao_4/utils.i"
+	@echo "... secao_4/utils.s"
 .PHONY : help
 
 
