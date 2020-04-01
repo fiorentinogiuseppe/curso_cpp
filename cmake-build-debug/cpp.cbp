@@ -111,6 +111,12 @@
 		<Unit filename="/home/giuseppe/CLionProjects/cpp/secao_4/utils.h">
 			<Option target="cpp"/>
 		</Unit>
+		<Unit filename="/home/giuseppe/CLionProjects/cpp/secao_5/Exercicio_1.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/home/giuseppe/CLionProjects/cpp/secao_5/RecebendoValores.cpp">
+			<Option target="cpp"/>
+		</Unit>
 		<Unit filename="/home/giuseppe/CLionProjects/cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

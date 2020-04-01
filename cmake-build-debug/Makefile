@@ -339,6 +339,60 @@ secao_4/utils.cpp.s:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/utils.cpp.s
 .PHONY : secao_4/utils.cpp.s
 
+secao_5/Exercicio_1.o: secao_5/Exercicio_1.cpp.o
+
+.PHONY : secao_5/Exercicio_1.o
+
+# target to build an object file
+secao_5/Exercicio_1.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/Exercicio_1.cpp.o
+.PHONY : secao_5/Exercicio_1.cpp.o
+
+secao_5/Exercicio_1.i: secao_5/Exercicio_1.cpp.i
+
+.PHONY : secao_5/Exercicio_1.i
+
+# target to preprocess a source file
+secao_5/Exercicio_1.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/Exercicio_1.cpp.i
+.PHONY : secao_5/Exercicio_1.cpp.i
+
+secao_5/Exercicio_1.s: secao_5/Exercicio_1.cpp.s
+
+.PHONY : secao_5/Exercicio_1.s
+
+# target to generate assembly for a file
+secao_5/Exercicio_1.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/Exercicio_1.cpp.s
+.PHONY : secao_5/Exercicio_1.cpp.s
+
+secao_5/RecebendoValores.o: secao_5/RecebendoValores.cpp.o
+
+.PHONY : secao_5/RecebendoValores.o
+
+# target to build an object file
+secao_5/RecebendoValores.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/RecebendoValores.cpp.o
+.PHONY : secao_5/RecebendoValores.cpp.o
+
+secao_5/RecebendoValores.i: secao_5/RecebendoValores.cpp.i
+
+.PHONY : secao_5/RecebendoValores.i
+
+# target to preprocess a source file
+secao_5/RecebendoValores.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/RecebendoValores.cpp.i
+.PHONY : secao_5/RecebendoValores.cpp.i
+
+secao_5/RecebendoValores.s: secao_5/RecebendoValores.cpp.s
+
+.PHONY : secao_5/RecebendoValores.s
+
+# target to generate assembly for a file
+secao_5/RecebendoValores.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/RecebendoValores.cpp.s
+.PHONY : secao_5/RecebendoValores.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -372,6 +426,12 @@ help:
 	@echo "... secao_4/utils.o"
 	@echo "... secao_4/utils.i"
 	@echo "... secao_4/utils.s"
+	@echo "... secao_5/Exercicio_1.o"
+	@echo "... secao_5/Exercicio_1.i"
+	@echo "... secao_5/Exercicio_1.s"
+	@echo "... secao_5/RecebendoValores.o"
+	@echo "... secao_5/RecebendoValores.i"
+	@echo "... secao_5/RecebendoValores.s"
 .PHONY : help
 
 

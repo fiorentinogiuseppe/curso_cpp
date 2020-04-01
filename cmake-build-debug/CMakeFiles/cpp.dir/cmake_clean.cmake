@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.o"
   "CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.o"
   "CMakeFiles/cpp.dir/secao_4/utils.cpp.o"
+  "CMakeFiles/cpp.dir/secao_5/Exercicio_1.cpp.o"
+  "CMakeFiles/cpp.dir/secao_5/RecebendoValores.cpp.o"
   "cpp"
   "cpp.pdb"
 )
