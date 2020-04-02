@@ -52,7 +52,45 @@
            * Você também pode apagar todos os breakpoints com o comando
               * clear
      * Executando passo-a-passo
-     https://www.ic.unicamp.br/~rafael/materiais/gdb.html
+        * A ideia do debbugger (ou depurador, em português) é permitir que você execute o programa passo-a-passo, 
+        acompanhando sua execução, enquanto também consegue ver ou alterar o valor de variáveis, chamar funções, etc.
+        * Quando o gdb parar em um breakpoint, você poderá falar para seguir com a execução usando o comando:
+          * continue
+        *Se você quiser executar um comando por vez, você tem duas opções:
+            * step
+               * entra em qualquer função que seja chamada nessa linha.
+            * next
+               * vai sempre para a próxima linha do arquivo, 
      * Imprimindo variáveis
-     https://www.youtube.com/watch?time_continue=3&v=7j6YY3vULQE&feature=emb_title
-   
+       * Você pode imprimir o valor de qualquer variável x usando
+          * print x
+       * Você também pode imprimir campos de struct, posições de vetores, etc.
+       * A variável ficará sempre visível e você pode acompanhar as alterações no valor dela.
+         * display x
+       * Para remover algo que está com display, faça
+         * undisplay x
+
+# Operadores relacionais e de Igualdade == > < >= <= !=
+* ==   - igualdade
+* \>   - maior
+* \>=  - maior ou igual
+* \<   - menor
+* \<=  - menor ou igual
+* \>!= - diferente de
+
+# Conceito de Lógica, Algoritmo, Pseudocódigo e   Processamento de Dados
+## Logica
+* Organizacao do pensamento humano
+* Ato de pensar
+* Encadeamento de alguma coisa que obedece a certas regras e convencoes
+## Algoritmo
+* Uma sequência finita de passos não ambíguos que leva a execução de uma tarefa
+* conjunto de dados de entrada em um conjunto de dados de saída por meio de instruções computacionais,
+ou seja processamento dos dados
+
+##Pseudo codigo
+* Forma genérica de escrever um algoritmo, utilizando uma linguagem simples sem necessidade de conhecer a sintaxe de nenhuma
+linguagem de programaçao
+# Operadores Lógicos AND - E - &&, OR- OU - || e NOT  - NÃO - ! Parte 01
+# Operadores Lógicos AND - E - &&, OR- OU - || e NOT  - NÃO - ! Parte 02
+

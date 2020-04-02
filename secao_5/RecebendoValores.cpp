@@ -8,6 +8,7 @@ int main(){
     float Numero01, Numero02;
     float Soma, Subtracao, Multiplicacao, Divisao;
     int Resto;
+    bool comparacao, diferente, maior, menor, maiorigual, menorigual;
 
     std::cout << "Digite o primeiro numero: ";
     std::cin >> Numero01; // Colocar o valor digitado no stdin na variavel Numero01. Recebe o dado e quebra a linha
@@ -27,6 +28,19 @@ int main(){
     std::cout << "A Multiplicacao dos dois numeros: " << Multiplicacao << std::endl;
     std::cout << "A Divisao dos dois numeros: " << Divisao << std::endl;
     std::cout << "O resto da divisao dos dois numeros: " << Resto << std::endl;
+
+    comparacao = (Numero01 == Numero02);
+    std::cout << "NUmero01 é igual ao Numero02? " << comparacao << std::endl;
+    diferente = (Numero01 != Numero02);
+    std::cout << "NUmero01 é diferente ao Numero02? " << diferente << std::endl;
+    maior = (Numero01 > Numero02);
+    std::cout << "NUmero01 é maior ao Numero02? " << maior << std::endl;
+    menor = (Numero01 < Numero02);
+    std::cout << "NUmero01 é menor ao Numero02? " << menor << std::endl;
+    maiorigual = (Numero01 >= Numero02);
+    std::cout << "NUmero01 é maior igual ao Numero02? " << maiorigual << std::endl;
+    menorigual = (Numero01 <= Numero02);
+    std::cout << "NUmero01 é menor igual ao Numero02? " << menorigual << std::endl;
 
     return 0;
 }
