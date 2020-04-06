@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-int main(){
+int main_valores(){
     float Numero01, Numero02;
     float Soma, Subtracao, Multiplicacao, Divisao;
     int Resto;

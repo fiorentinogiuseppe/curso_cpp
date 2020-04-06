@@ -91,6 +91,38 @@ ou seja processamento dos dados
 ##Pseudo codigo
 * Forma genérica de escrever um algoritmo, utilizando uma linguagem simples sem necessidade de conhecer a sintaxe de nenhuma
 linguagem de programaçao
-# Operadores Lógicos AND - E - &&, OR- OU - || e NOT  - NÃO - ! Parte 01
-# Operadores Lógicos AND - E - &&, OR- OU - || e NOT  - NÃO - ! Parte 02
+# Operadores Lógicos AND - E - &&, OR- OU - || e NOT  - NÃO - !
+## Operador logico And - E - &&
+* Para ser true todas as condições tem que ser satisfeita
+## Operador logico OR- OU - ||
+* Para ser true apenas uma das condições tem que ser satisfeita
+## Operador logico NOT- NÃO - !
+* O oposto da expressao logica avaliada
 
+# std::printf( ) utilizando especificadores %c, %s, %d, %f e %l PARTE 1
+## Especificadores de formato
+* Especifica o tipo da variavel que sera utilizada na funcao printf
+* %d inteiro
+* %f float
+* %lf double
+* %c char
+* %s string
+* %% é o %
+## Caractere de escape
+* \a
+* \b
+* \f
+* \n
+* \r
+
+...
+
+# Operador Incremento ++ e Decremento -- Pré-fixados e Pós-Fixados
+* ++ ou -- indica que será adicionado um ou subtraído um do valor da variável
+  * Se isso aparecer sozinho no código fora de qualquer sentença de cout ou atribuição, etc isso não irá importar se é pré ou pós fixado.
+* Existem casos que o compilador precisará saber se é para incrementar antes ou depois a variável.
+  * pós-fixada 
+    * Primeiro atribui e depois incrementa
+  * pre-fixado
+    * Primeiro incrementa e depois atribui
+* :warning: Em programação existem comandos que efetivamente mudam os valores das variáveis na memória e existem outros comandos que apenas usam este valor da variável sem mudar nada na memória.

@@ -123,275 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_1_2/PrimeiroCodigo/secao1.o: secao_1_2/PrimeiroCodigo/secao1.cpp.o
+secao_5/IncrementoDecremento.o: secao_5/IncrementoDecremento.cpp.o
 
-.PHONY : secao_1_2/PrimeiroCodigo/secao1.o
-
-# target to build an object file
-secao_1_2/PrimeiroCodigo/secao1.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao1.cpp.o
-.PHONY : secao_1_2/PrimeiroCodigo/secao1.cpp.o
-
-secao_1_2/PrimeiroCodigo/secao1.i: secao_1_2/PrimeiroCodigo/secao1.cpp.i
-
-.PHONY : secao_1_2/PrimeiroCodigo/secao1.i
-
-# target to preprocess a source file
-secao_1_2/PrimeiroCodigo/secao1.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao1.cpp.i
-.PHONY : secao_1_2/PrimeiroCodigo/secao1.cpp.i
-
-secao_1_2/PrimeiroCodigo/secao1.s: secao_1_2/PrimeiroCodigo/secao1.cpp.s
-
-.PHONY : secao_1_2/PrimeiroCodigo/secao1.s
-
-# target to generate assembly for a file
-secao_1_2/PrimeiroCodigo/secao1.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao1.cpp.s
-.PHONY : secao_1_2/PrimeiroCodigo/secao1.cpp.s
-
-secao_1_2/PrimeiroCodigo/secao2.o: secao_1_2/PrimeiroCodigo/secao2.cpp.o
-
-.PHONY : secao_1_2/PrimeiroCodigo/secao2.o
+.PHONY : secao_5/IncrementoDecremento.o
 
 # target to build an object file
-secao_1_2/PrimeiroCodigo/secao2.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao2.cpp.o
-.PHONY : secao_1_2/PrimeiroCodigo/secao2.cpp.o
+secao_5/IncrementoDecremento.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/IncrementoDecremento.cpp.o
+.PHONY : secao_5/IncrementoDecremento.cpp.o
 
-secao_1_2/PrimeiroCodigo/secao2.i: secao_1_2/PrimeiroCodigo/secao2.cpp.i
+secao_5/IncrementoDecremento.i: secao_5/IncrementoDecremento.cpp.i
 
-.PHONY : secao_1_2/PrimeiroCodigo/secao2.i
-
-# target to preprocess a source file
-secao_1_2/PrimeiroCodigo/secao2.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao2.cpp.i
-.PHONY : secao_1_2/PrimeiroCodigo/secao2.cpp.i
-
-secao_1_2/PrimeiroCodigo/secao2.s: secao_1_2/PrimeiroCodigo/secao2.cpp.s
-
-.PHONY : secao_1_2/PrimeiroCodigo/secao2.s
-
-# target to generate assembly for a file
-secao_1_2/PrimeiroCodigo/secao2.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_1_2/PrimeiroCodigo/secao2.cpp.s
-.PHONY : secao_1_2/PrimeiroCodigo/secao2.cpp.s
-
-secao_4/Constantes.o: secao_4/Constantes.cpp.o
-
-.PHONY : secao_4/Constantes.o
-
-# target to build an object file
-secao_4/Constantes.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Constantes.cpp.o
-.PHONY : secao_4/Constantes.cpp.o
-
-secao_4/Constantes.i: secao_4/Constantes.cpp.i
-
-.PHONY : secao_4/Constantes.i
+.PHONY : secao_5/IncrementoDecremento.i
 
 # target to preprocess a source file
-secao_4/Constantes.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Constantes.cpp.i
-.PHONY : secao_4/Constantes.cpp.i
+secao_5/IncrementoDecremento.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/IncrementoDecremento.cpp.i
+.PHONY : secao_5/IncrementoDecremento.cpp.i
 
-secao_4/Constantes.s: secao_4/Constantes.cpp.s
+secao_5/IncrementoDecremento.s: secao_5/IncrementoDecremento.cpp.s
 
-.PHONY : secao_4/Constantes.s
-
-# target to generate assembly for a file
-secao_4/Constantes.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Constantes.cpp.s
-.PHONY : secao_4/Constantes.cpp.s
-
-secao_4/Exercicio_1.o: secao_4/Exercicio_1.cpp.o
-
-.PHONY : secao_4/Exercicio_1.o
-
-# target to build an object file
-secao_4/Exercicio_1.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.o
-.PHONY : secao_4/Exercicio_1.cpp.o
-
-secao_4/Exercicio_1.i: secao_4/Exercicio_1.cpp.i
-
-.PHONY : secao_4/Exercicio_1.i
-
-# target to preprocess a source file
-secao_4/Exercicio_1.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.i
-.PHONY : secao_4/Exercicio_1.cpp.i
-
-secao_4/Exercicio_1.s: secao_4/Exercicio_1.cpp.s
-
-.PHONY : secao_4/Exercicio_1.s
+.PHONY : secao_5/IncrementoDecremento.s
 
 # target to generate assembly for a file
-secao_4/Exercicio_1.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Exercicio_1.cpp.s
-.PHONY : secao_4/Exercicio_1.cpp.s
-
-secao_4/Exercicio_2.o: secao_4/Exercicio_2.cpp.o
-
-.PHONY : secao_4/Exercicio_2.o
-
-# target to build an object file
-secao_4/Exercicio_2.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.o
-.PHONY : secao_4/Exercicio_2.cpp.o
-
-secao_4/Exercicio_2.i: secao_4/Exercicio_2.cpp.i
-
-.PHONY : secao_4/Exercicio_2.i
-
-# target to preprocess a source file
-secao_4/Exercicio_2.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.i
-.PHONY : secao_4/Exercicio_2.cpp.i
-
-secao_4/Exercicio_2.s: secao_4/Exercicio_2.cpp.s
-
-.PHONY : secao_4/Exercicio_2.s
-
-# target to generate assembly for a file
-secao_4/Exercicio_2.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Exercicio_2.cpp.s
-.PHONY : secao_4/Exercicio_2.cpp.s
-
-secao_4/TiposVariaveis.o: secao_4/TiposVariaveis.cpp.o
-
-.PHONY : secao_4/TiposVariaveis.o
-
-# target to build an object file
-secao_4/TiposVariaveis.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.o
-.PHONY : secao_4/TiposVariaveis.cpp.o
-
-secao_4/TiposVariaveis.i: secao_4/TiposVariaveis.cpp.i
-
-.PHONY : secao_4/TiposVariaveis.i
-
-# target to preprocess a source file
-secao_4/TiposVariaveis.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.i
-.PHONY : secao_4/TiposVariaveis.cpp.i
-
-secao_4/TiposVariaveis.s: secao_4/TiposVariaveis.cpp.s
-
-.PHONY : secao_4/TiposVariaveis.s
-
-# target to generate assembly for a file
-secao_4/TiposVariaveis.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/TiposVariaveis.cpp.s
-.PHONY : secao_4/TiposVariaveis.cpp.s
-
-secao_4/Variaveis.o: secao_4/Variaveis.cpp.o
-
-.PHONY : secao_4/Variaveis.o
-
-# target to build an object file
-secao_4/Variaveis.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.o
-.PHONY : secao_4/Variaveis.cpp.o
-
-secao_4/Variaveis.i: secao_4/Variaveis.cpp.i
-
-.PHONY : secao_4/Variaveis.i
-
-# target to preprocess a source file
-secao_4/Variaveis.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.i
-.PHONY : secao_4/Variaveis.cpp.i
-
-secao_4/Variaveis.s: secao_4/Variaveis.cpp.s
-
-.PHONY : secao_4/Variaveis.s
-
-# target to generate assembly for a file
-secao_4/Variaveis.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/Variaveis.cpp.s
-.PHONY : secao_4/Variaveis.cpp.s
-
-secao_4/utils.o: secao_4/utils.cpp.o
-
-.PHONY : secao_4/utils.o
-
-# target to build an object file
-secao_4/utils.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/utils.cpp.o
-.PHONY : secao_4/utils.cpp.o
-
-secao_4/utils.i: secao_4/utils.cpp.i
-
-.PHONY : secao_4/utils.i
-
-# target to preprocess a source file
-secao_4/utils.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/utils.cpp.i
-.PHONY : secao_4/utils.cpp.i
-
-secao_4/utils.s: secao_4/utils.cpp.s
-
-.PHONY : secao_4/utils.s
-
-# target to generate assembly for a file
-secao_4/utils.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_4/utils.cpp.s
-.PHONY : secao_4/utils.cpp.s
-
-secao_5/Exercicio_1.o: secao_5/Exercicio_1.cpp.o
-
-.PHONY : secao_5/Exercicio_1.o
-
-# target to build an object file
-secao_5/Exercicio_1.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/Exercicio_1.cpp.o
-.PHONY : secao_5/Exercicio_1.cpp.o
-
-secao_5/Exercicio_1.i: secao_5/Exercicio_1.cpp.i
-
-.PHONY : secao_5/Exercicio_1.i
-
-# target to preprocess a source file
-secao_5/Exercicio_1.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/Exercicio_1.cpp.i
-.PHONY : secao_5/Exercicio_1.cpp.i
-
-secao_5/Exercicio_1.s: secao_5/Exercicio_1.cpp.s
-
-.PHONY : secao_5/Exercicio_1.s
-
-# target to generate assembly for a file
-secao_5/Exercicio_1.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/Exercicio_1.cpp.s
-.PHONY : secao_5/Exercicio_1.cpp.s
-
-secao_5/RecebendoValores.o: secao_5/RecebendoValores.cpp.o
-
-.PHONY : secao_5/RecebendoValores.o
-
-# target to build an object file
-secao_5/RecebendoValores.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/RecebendoValores.cpp.o
-.PHONY : secao_5/RecebendoValores.cpp.o
-
-secao_5/RecebendoValores.i: secao_5/RecebendoValores.cpp.i
-
-.PHONY : secao_5/RecebendoValores.i
-
-# target to preprocess a source file
-secao_5/RecebendoValores.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/RecebendoValores.cpp.i
-.PHONY : secao_5/RecebendoValores.cpp.i
-
-secao_5/RecebendoValores.s: secao_5/RecebendoValores.cpp.s
-
-.PHONY : secao_5/RecebendoValores.s
-
-# target to generate assembly for a file
-secao_5/RecebendoValores.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/RecebendoValores.cpp.s
-.PHONY : secao_5/RecebendoValores.cpp.s
+secao_5/IncrementoDecremento.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/IncrementoDecremento.cpp.s
+.PHONY : secao_5/IncrementoDecremento.cpp.s
 
 # Help Target
 help:
@@ -402,36 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cpp"
 	@echo "... edit_cache"
-	@echo "... secao_1_2/PrimeiroCodigo/secao1.o"
-	@echo "... secao_1_2/PrimeiroCodigo/secao1.i"
-	@echo "... secao_1_2/PrimeiroCodigo/secao1.s"
-	@echo "... secao_1_2/PrimeiroCodigo/secao2.o"
-	@echo "... secao_1_2/PrimeiroCodigo/secao2.i"
-	@echo "... secao_1_2/PrimeiroCodigo/secao2.s"
-	@echo "... secao_4/Constantes.o"
-	@echo "... secao_4/Constantes.i"
-	@echo "... secao_4/Constantes.s"
-	@echo "... secao_4/Exercicio_1.o"
-	@echo "... secao_4/Exercicio_1.i"
-	@echo "... secao_4/Exercicio_1.s"
-	@echo "... secao_4/Exercicio_2.o"
-	@echo "... secao_4/Exercicio_2.i"
-	@echo "... secao_4/Exercicio_2.s"
-	@echo "... secao_4/TiposVariaveis.o"
-	@echo "... secao_4/TiposVariaveis.i"
-	@echo "... secao_4/TiposVariaveis.s"
-	@echo "... secao_4/Variaveis.o"
-	@echo "... secao_4/Variaveis.i"
-	@echo "... secao_4/Variaveis.s"
-	@echo "... secao_4/utils.o"
-	@echo "... secao_4/utils.i"
-	@echo "... secao_4/utils.s"
-	@echo "... secao_5/Exercicio_1.o"
-	@echo "... secao_5/Exercicio_1.i"
-	@echo "... secao_5/Exercicio_1.s"
-	@echo "... secao_5/RecebendoValores.o"
-	@echo "... secao_5/RecebendoValores.i"
-	@echo "... secao_5/RecebendoValores.s"
+	@echo "... secao_5/IncrementoDecremento.o"
+	@echo "... secao_5/IncrementoDecremento.i"
+	@echo "... secao_5/IncrementoDecremento.s"
 .PHONY : help
 
 
