@@ -7,6 +7,7 @@
 * \* - Multiplicacao
 * \/ - Divisao
 * \% - Resto da divisao
+  * The modulus operator % cannot apply to float or double. It's meant to get the remainder when integer type x is divided by y. It does not have any meaning when you use it with float or double.
 
 #Precedência de Operadores
 * Matematica
