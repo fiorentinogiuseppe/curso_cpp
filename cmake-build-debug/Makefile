@@ -123,32 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_6/Calculadora.o: secao_6/Calculadora.cpp.o
+secao_7/Som0A100.o: secao_7/Som0A100.cpp.o
 
-.PHONY : secao_6/Calculadora.o
+.PHONY : secao_7/Som0A100.o
 
 # target to build an object file
-secao_6/Calculadora.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_6/Calculadora.cpp.o
-.PHONY : secao_6/Calculadora.cpp.o
+secao_7/Som0A100.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.o
+.PHONY : secao_7/Som0A100.cpp.o
 
-secao_6/Calculadora.i: secao_6/Calculadora.cpp.i
+secao_7/Som0A100.i: secao_7/Som0A100.cpp.i
 
-.PHONY : secao_6/Calculadora.i
+.PHONY : secao_7/Som0A100.i
 
 # target to preprocess a source file
-secao_6/Calculadora.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_6/Calculadora.cpp.i
-.PHONY : secao_6/Calculadora.cpp.i
+secao_7/Som0A100.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.i
+.PHONY : secao_7/Som0A100.cpp.i
 
-secao_6/Calculadora.s: secao_6/Calculadora.cpp.s
+secao_7/Som0A100.s: secao_7/Som0A100.cpp.s
 
-.PHONY : secao_6/Calculadora.s
+.PHONY : secao_7/Som0A100.s
 
 # target to generate assembly for a file
-secao_6/Calculadora.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_6/Calculadora.cpp.s
-.PHONY : secao_6/Calculadora.cpp.s
+secao_7/Som0A100.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.s
+.PHONY : secao_7/Som0A100.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cpp"
 	@echo "... edit_cache"
-	@echo "... secao_6/Calculadora.o"
-	@echo "... secao_6/Calculadora.i"
-	@echo "... secao_6/Calculadora.s"
+	@echo "... secao_7/Som0A100.o"
+	@echo "... secao_7/Som0A100.i"
+	@echo "... secao_7/Som0A100.s"
 .PHONY : help
 
 
