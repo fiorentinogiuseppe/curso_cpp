@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp.dir/secao_5/IncrementoDecremento.cpp.o"
+  "CMakeFiles/cpp.dir/secao_6/Calculadora.cpp.o"
   "cpp"
   "cpp.pdb"
 )

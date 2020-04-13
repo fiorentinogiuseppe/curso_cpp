@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/giuseppe/CLionProjects/cpp/secao_5/IncrementoDecremento.cpp
+/home/giuseppe/CLionProjects/curso_cpp/secao_6/Calculadora.cpp
 iostream
+-
+string
 -
 

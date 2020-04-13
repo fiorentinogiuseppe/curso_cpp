@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/cpp.dir/secao_5/IncrementoDecremento.cpp.o  -o cpp 
+/usr/bin/c++  -g   CMakeFiles/cpp.dir/secao_6/Calculadora.cpp.o  -o cpp 

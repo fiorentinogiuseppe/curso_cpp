@@ -48,10 +48,10 @@ RM = /snap/clion/107/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giuseppe/CLionProjects/cpp
+CMAKE_SOURCE_DIR = /home/giuseppe/CLionProjects/curso_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giuseppe/CLionProjects/cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giuseppe/CLionProjects/cpp/cmake-build-debug/CMakeFiles /home/giuseppe/CLionProjects/cpp/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles /home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giuseppe/CLionProjects/cpp/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_5/IncrementoDecremento.o: secao_5/IncrementoDecremento.cpp.o
+secao_6/Calculadora.o: secao_6/Calculadora.cpp.o
 
-.PHONY : secao_5/IncrementoDecremento.o
+.PHONY : secao_6/Calculadora.o
 
 # target to build an object file
-secao_5/IncrementoDecremento.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/IncrementoDecremento.cpp.o
-.PHONY : secao_5/IncrementoDecremento.cpp.o
+secao_6/Calculadora.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_6/Calculadora.cpp.o
+.PHONY : secao_6/Calculadora.cpp.o
 
-secao_5/IncrementoDecremento.i: secao_5/IncrementoDecremento.cpp.i
+secao_6/Calculadora.i: secao_6/Calculadora.cpp.i
 
-.PHONY : secao_5/IncrementoDecremento.i
+.PHONY : secao_6/Calculadora.i
 
 # target to preprocess a source file
-secao_5/IncrementoDecremento.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/IncrementoDecremento.cpp.i
-.PHONY : secao_5/IncrementoDecremento.cpp.i
+secao_6/Calculadora.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_6/Calculadora.cpp.i
+.PHONY : secao_6/Calculadora.cpp.i
 
-secao_5/IncrementoDecremento.s: secao_5/IncrementoDecremento.cpp.s
+secao_6/Calculadora.s: secao_6/Calculadora.cpp.s
 
-.PHONY : secao_5/IncrementoDecremento.s
+.PHONY : secao_6/Calculadora.s
 
 # target to generate assembly for a file
-secao_5/IncrementoDecremento.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_5/IncrementoDecremento.cpp.s
-.PHONY : secao_5/IncrementoDecremento.cpp.s
+secao_6/Calculadora.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_6/Calculadora.cpp.s
+.PHONY : secao_6/Calculadora.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cpp"
 	@echo "... edit_cache"
-	@echo "... secao_5/IncrementoDecremento.o"
-	@echo "... secao_5/IncrementoDecremento.i"
-	@echo "... secao_5/IncrementoDecremento.s"
+	@echo "... secao_6/Calculadora.o"
+	@echo "... secao_6/Calculadora.i"
+	@echo "... secao_6/Calculadora.s"
 .PHONY : help
 
 
