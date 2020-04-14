@@ -3,4 +3,4 @@ project(cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 set(ENV{TERM} xterm-256color)
-add_executable(cpp secao_7/Som0A100.cpp)
+add_executable(cpp  secao_14/StackHeap.cpp)

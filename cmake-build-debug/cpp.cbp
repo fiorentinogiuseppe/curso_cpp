@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_7/Som0A100.cpp">
+		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_14/StackHeap.cpp">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/CMakeLists.txt">

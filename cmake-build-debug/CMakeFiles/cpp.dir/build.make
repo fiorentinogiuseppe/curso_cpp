@@ -57,27 +57,27 @@ include CMakeFiles/cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp.dir/flags.make
 
-CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.o: ../secao_7/Som0A100.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.o -c /home/giuseppe/CLionProjects/curso_cpp/secao_7/Som0A100.cpp
+CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.o: ../secao_14/StackHeap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.o -c /home/giuseppe/CLionProjects/curso_cpp/secao_14/StackHeap.cpp
 
-CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppe/CLionProjects/curso_cpp/secao_7/Som0A100.cpp > CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.i
+CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppe/CLionProjects/curso_cpp/secao_14/StackHeap.cpp > CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.i
 
-CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppe/CLionProjects/curso_cpp/secao_7/Som0A100.cpp -o CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.s
+CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppe/CLionProjects/curso_cpp/secao_14/StackHeap.cpp -o CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.s
 
 # Object files for target cpp
 cpp_OBJECTS = \
-"CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.o"
+"CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
-cpp: CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.o
+cpp: CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp"

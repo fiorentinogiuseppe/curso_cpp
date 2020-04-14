@@ -123,32 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_7/Som0A100.o: secao_7/Som0A100.cpp.o
+secao_14/StackHeap.o: secao_14/StackHeap.cpp.o
 
-.PHONY : secao_7/Som0A100.o
+.PHONY : secao_14/StackHeap.o
 
 # target to build an object file
-secao_7/Som0A100.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.o
-.PHONY : secao_7/Som0A100.cpp.o
+secao_14/StackHeap.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.o
+.PHONY : secao_14/StackHeap.cpp.o
 
-secao_7/Som0A100.i: secao_7/Som0A100.cpp.i
+secao_14/StackHeap.i: secao_14/StackHeap.cpp.i
 
-.PHONY : secao_7/Som0A100.i
+.PHONY : secao_14/StackHeap.i
 
 # target to preprocess a source file
-secao_7/Som0A100.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.i
-.PHONY : secao_7/Som0A100.cpp.i
+secao_14/StackHeap.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.i
+.PHONY : secao_14/StackHeap.cpp.i
 
-secao_7/Som0A100.s: secao_7/Som0A100.cpp.s
+secao_14/StackHeap.s: secao_14/StackHeap.cpp.s
 
-.PHONY : secao_7/Som0A100.s
+.PHONY : secao_14/StackHeap.s
 
 # target to generate assembly for a file
-secao_7/Som0A100.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_7/Som0A100.cpp.s
-.PHONY : secao_7/Som0A100.cpp.s
+secao_14/StackHeap.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.s
+.PHONY : secao_14/StackHeap.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... cpp"
 	@echo "... edit_cache"
-	@echo "... secao_7/Som0A100.o"
-	@echo "... secao_7/Som0A100.i"
-	@echo "... secao_7/Som0A100.s"
+	@echo "... secao_14/StackHeap.o"
+	@echo "... secao_14/StackHeap.i"
+	@echo "... secao_14/StackHeap.s"
 .PHONY : help
 
 
