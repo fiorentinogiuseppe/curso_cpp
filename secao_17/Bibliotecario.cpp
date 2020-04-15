@@ -7,3 +7,7 @@
 void Bibliotecario::CadastrarLivros() {
     std::cout << "Livros cadastrados " << std::endl;
 }
+
+void Bibliotecario::MostrarDados() {
+    Pessoa::MostrarDados();
+}

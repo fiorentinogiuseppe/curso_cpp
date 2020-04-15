@@ -14,6 +14,7 @@ public:
     Bibliotecario(std::string NovoNome, int NovoCPF, int NovaMatricula): Pessoa(std::move(NovoNome), NovoCPF, NovaMatricula) {};
 
     static void CadastrarLivros();
+    void MostrarDados();
 };
 
 

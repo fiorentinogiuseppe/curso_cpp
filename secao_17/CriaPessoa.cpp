@@ -11,13 +11,13 @@
 // Na estrutuda por padrao é publica
 
 int main(){
-    Professor Marcos;
-    Aluno Luke;
-    Bibliotecario ObiWan;
+    Professor Marcos{"Pacheco", 12345, 6789, "Udemy"};
+    Aluno Luke{"Skaywaker", 88888, 99999, "Jedi"};
+    Bibliotecario ObiWan{"Kenobi", 1111,22222};
 
-    Marcos.Nome = "Doria";
-    Luke.Nome = "Doria estudante";
-    ObiWan.Nome = "Doria velho";
+    Marcos.MostrarDados();
+    Luke.MostrarDados();
+    ObiWan.MostrarDados();
 
     return 0;
 }

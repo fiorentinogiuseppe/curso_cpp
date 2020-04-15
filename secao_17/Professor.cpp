@@ -11,3 +11,16 @@ void Professor::EfetuarChamada() {
 void Professor::EntregarPauta() {
     std::cout << "Pauta entrege \n" << std::endl;
 }
+
+std::string Professor::getDepartamento() {
+    return Departamento;
+}
+
+void Professor::setDepartamento(std::string NovoDepartamento) {
+    Departamento = NovoDepartamento;
+}
+
+void Professor::MostrarDados() {
+    Pessoa::MostrarDados();
+    std::cout << "Departamento: " << getDepartamento() << std::endl;
+}

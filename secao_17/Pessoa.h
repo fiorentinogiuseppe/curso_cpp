@@ -10,16 +10,25 @@
 
 class Pessoa {
 public:
+    // Construtor sem parametros
+    Pessoa() : Nome(""), CPF(0), Matricula(0){};
+    // Construtor com parametros
+    Pessoa(std::string Nome, int CPF, int Matricula): Nome(std::move(Nome)), CPF(CPF), Matricula(Matricula){};
+
+    void AcessarSistema();
+    std::string GetNome();
+    int GetMatricula();
+    int GetCPF();
+    void SetNome(std::string Nome);
+    void SetCPF(int CPF);
+    void SetMatricula(int Matricula);
+    void MostrarDados();
+
+private:
     std::string Nome;
     int CPF;
     int Matricula;
 
-    // Construtor sem parametros
-    Pessoa() : Nome(""), CPF(0), Matricula(0){};
-    // Construtor com parametros
-    Pessoa(std::string NovoNome, int NovoCPF, int NovaMatricula): Nome(std::move(NovoNome)), CPF(NovoCPF), Matricula(NovaMatricula){};
-
-    void AcessarSistema();
 };
 
 

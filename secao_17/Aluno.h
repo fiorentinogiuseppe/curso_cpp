@@ -11,10 +11,23 @@
 
 class Aluno : public Pessoa {
 public:
-    std::string Curso;
     Aluno()= default;
+    // Forma 1 de inicializar
     Aluno(std::string NovoNome, int NovoCPF, int NovaMatricula, std::string NovoCurso): Pessoa(std::move(NovoNome), NovoCPF, NovaMatricula), Curso(std::move(NovoCurso)){};
+
+    // Outra forma de inicializar
+    /*Aluno(std::string NovoNome, int NovoCPF, int NovaMatricula, std::string NovoCurso) {
+        Nome = std::move(NovoNome);
+        CPF = NovoCPF;
+        Curso = std::move(NovoCurso);
+    };*/
     void RealizarProva();
+    void SetCurso(std::string NewCurso);
+    std::string GetCurso();
+    void MostrarDados();
+private:
+    std::string Curso;
+
 };
 
 
