@@ -123,59 +123,140 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_13/CriandoClasses.o: secao_13/CriandoClasses.cpp.o
+secao_17/Aluno.o: secao_17/Aluno.cpp.o
 
-.PHONY : secao_13/CriandoClasses.o
-
-# target to build an object file
-secao_13/CriandoClasses.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_13/CriandoClasses.cpp.o
-.PHONY : secao_13/CriandoClasses.cpp.o
-
-secao_13/CriandoClasses.i: secao_13/CriandoClasses.cpp.i
-
-.PHONY : secao_13/CriandoClasses.i
-
-# target to preprocess a source file
-secao_13/CriandoClasses.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_13/CriandoClasses.cpp.i
-.PHONY : secao_13/CriandoClasses.cpp.i
-
-secao_13/CriandoClasses.s: secao_13/CriandoClasses.cpp.s
-
-.PHONY : secao_13/CriandoClasses.s
-
-# target to generate assembly for a file
-secao_13/CriandoClasses.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_13/CriandoClasses.cpp.s
-.PHONY : secao_13/CriandoClasses.cpp.s
-
-secao_13/CriandoClassesNotacaoFlechaPoints.o: secao_13/CriandoClassesNotacaoFlechaPoints.cpp.o
-
-.PHONY : secao_13/CriandoClassesNotacaoFlechaPoints.o
+.PHONY : secao_17/Aluno.o
 
 # target to build an object file
-secao_13/CriandoClassesNotacaoFlechaPoints.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_13/CriandoClassesNotacaoFlechaPoints.cpp.o
-.PHONY : secao_13/CriandoClassesNotacaoFlechaPoints.cpp.o
+secao_17/Aluno.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/Aluno.cpp.o
+.PHONY : secao_17/Aluno.cpp.o
 
-secao_13/CriandoClassesNotacaoFlechaPoints.i: secao_13/CriandoClassesNotacaoFlechaPoints.cpp.i
+secao_17/Aluno.i: secao_17/Aluno.cpp.i
 
-.PHONY : secao_13/CriandoClassesNotacaoFlechaPoints.i
+.PHONY : secao_17/Aluno.i
 
 # target to preprocess a source file
-secao_13/CriandoClassesNotacaoFlechaPoints.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_13/CriandoClassesNotacaoFlechaPoints.cpp.i
-.PHONY : secao_13/CriandoClassesNotacaoFlechaPoints.cpp.i
+secao_17/Aluno.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/Aluno.cpp.i
+.PHONY : secao_17/Aluno.cpp.i
 
-secao_13/CriandoClassesNotacaoFlechaPoints.s: secao_13/CriandoClassesNotacaoFlechaPoints.cpp.s
+secao_17/Aluno.s: secao_17/Aluno.cpp.s
 
-.PHONY : secao_13/CriandoClassesNotacaoFlechaPoints.s
+.PHONY : secao_17/Aluno.s
 
 # target to generate assembly for a file
-secao_13/CriandoClassesNotacaoFlechaPoints.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_13/CriandoClassesNotacaoFlechaPoints.cpp.s
-.PHONY : secao_13/CriandoClassesNotacaoFlechaPoints.cpp.s
+secao_17/Aluno.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/Aluno.cpp.s
+.PHONY : secao_17/Aluno.cpp.s
+
+secao_17/Bibliotecario.o: secao_17/Bibliotecario.cpp.o
+
+.PHONY : secao_17/Bibliotecario.o
+
+# target to build an object file
+secao_17/Bibliotecario.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/Bibliotecario.cpp.o
+.PHONY : secao_17/Bibliotecario.cpp.o
+
+secao_17/Bibliotecario.i: secao_17/Bibliotecario.cpp.i
+
+.PHONY : secao_17/Bibliotecario.i
+
+# target to preprocess a source file
+secao_17/Bibliotecario.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/Bibliotecario.cpp.i
+.PHONY : secao_17/Bibliotecario.cpp.i
+
+secao_17/Bibliotecario.s: secao_17/Bibliotecario.cpp.s
+
+.PHONY : secao_17/Bibliotecario.s
+
+# target to generate assembly for a file
+secao_17/Bibliotecario.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/Bibliotecario.cpp.s
+.PHONY : secao_17/Bibliotecario.cpp.s
+
+secao_17/CriaPessoa.o: secao_17/CriaPessoa.cpp.o
+
+.PHONY : secao_17/CriaPessoa.o
+
+# target to build an object file
+secao_17/CriaPessoa.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/CriaPessoa.cpp.o
+.PHONY : secao_17/CriaPessoa.cpp.o
+
+secao_17/CriaPessoa.i: secao_17/CriaPessoa.cpp.i
+
+.PHONY : secao_17/CriaPessoa.i
+
+# target to preprocess a source file
+secao_17/CriaPessoa.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/CriaPessoa.cpp.i
+.PHONY : secao_17/CriaPessoa.cpp.i
+
+secao_17/CriaPessoa.s: secao_17/CriaPessoa.cpp.s
+
+.PHONY : secao_17/CriaPessoa.s
+
+# target to generate assembly for a file
+secao_17/CriaPessoa.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/CriaPessoa.cpp.s
+.PHONY : secao_17/CriaPessoa.cpp.s
+
+secao_17/Pessoa.o: secao_17/Pessoa.cpp.o
+
+.PHONY : secao_17/Pessoa.o
+
+# target to build an object file
+secao_17/Pessoa.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/Pessoa.cpp.o
+.PHONY : secao_17/Pessoa.cpp.o
+
+secao_17/Pessoa.i: secao_17/Pessoa.cpp.i
+
+.PHONY : secao_17/Pessoa.i
+
+# target to preprocess a source file
+secao_17/Pessoa.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/Pessoa.cpp.i
+.PHONY : secao_17/Pessoa.cpp.i
+
+secao_17/Pessoa.s: secao_17/Pessoa.cpp.s
+
+.PHONY : secao_17/Pessoa.s
+
+# target to generate assembly for a file
+secao_17/Pessoa.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/Pessoa.cpp.s
+.PHONY : secao_17/Pessoa.cpp.s
+
+secao_17/Professor.o: secao_17/Professor.cpp.o
+
+.PHONY : secao_17/Professor.o
+
+# target to build an object file
+secao_17/Professor.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/Professor.cpp.o
+.PHONY : secao_17/Professor.cpp.o
+
+secao_17/Professor.i: secao_17/Professor.cpp.i
+
+.PHONY : secao_17/Professor.i
+
+# target to preprocess a source file
+secao_17/Professor.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/Professor.cpp.i
+.PHONY : secao_17/Professor.cpp.i
+
+secao_17/Professor.s: secao_17/Professor.cpp.s
+
+.PHONY : secao_17/Professor.s
+
+# target to generate assembly for a file
+secao_17/Professor.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_17/Professor.cpp.s
+.PHONY : secao_17/Professor.cpp.s
 
 # Help Target
 help:
@@ -186,12 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... secao_13/CriandoClasses.o"
-	@echo "... secao_13/CriandoClasses.i"
-	@echo "... secao_13/CriandoClasses.s"
-	@echo "... secao_13/CriandoClassesNotacaoFlechaPoints.o"
-	@echo "... secao_13/CriandoClassesNotacaoFlechaPoints.i"
-	@echo "... secao_13/CriandoClassesNotacaoFlechaPoints.s"
+	@echo "... secao_17/Aluno.o"
+	@echo "... secao_17/Aluno.i"
+	@echo "... secao_17/Aluno.s"
+	@echo "... secao_17/Bibliotecario.o"
+	@echo "... secao_17/Bibliotecario.i"
+	@echo "... secao_17/Bibliotecario.s"
+	@echo "... secao_17/CriaPessoa.o"
+	@echo "... secao_17/CriaPessoa.i"
+	@echo "... secao_17/CriaPessoa.s"
+	@echo "... secao_17/Pessoa.o"
+	@echo "... secao_17/Pessoa.i"
+	@echo "... secao_17/Pessoa.s"
+	@echo "... secao_17/Professor.o"
+	@echo "... secao_17/Professor.i"
+	@echo "... secao_17/Professor.s"
 .PHONY : help
 
 
