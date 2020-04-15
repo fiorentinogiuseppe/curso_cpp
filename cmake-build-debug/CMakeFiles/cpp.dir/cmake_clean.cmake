@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.o"
+  "CMakeFiles/cpp.dir/secao_13/CriandoClasses.cpp.o"
+  "CMakeFiles/cpp.dir/secao_13/CriandoClassesNotacaoFlechaPoints.cpp.o"
   "cpp"
   "cpp.pdb"
 )

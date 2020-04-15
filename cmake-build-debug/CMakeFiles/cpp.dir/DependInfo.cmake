@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/giuseppe/CLionProjects/curso_cpp/secao_14/StackHeap.cpp" "/home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles/cpp.dir/secao_14/StackHeap.cpp.o"
+  "/home/giuseppe/CLionProjects/curso_cpp/secao_13/CriandoClasses.cpp" "/home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles/cpp.dir/secao_13/CriandoClasses.cpp.o"
+  "/home/giuseppe/CLionProjects/curso_cpp/secao_13/CriandoClassesNotacaoFlechaPoints.cpp" "/home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles/cpp.dir/secao_13/CriandoClassesNotacaoFlechaPoints.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
