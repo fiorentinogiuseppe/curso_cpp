@@ -63,3 +63,28 @@ namespace nome{
 ```
 
 * Assim é possível chamar as funções sem conflito de nome. Basta usar NomeDaNameSpace::Funcao
+
+## Cast - Conversão de Dados Explícita x Coerção - Conversão de dados Implícita
+* Tipos de dados define
+    * Tamanho de uma variavel na memoria
+    * Como seu valor sera interpretado e utilizado
+* Tamanho de um tipo pode variar dependendo da arquitetura da cpu
+
+* Promoção de tipos
+    * Converter um tipo de tamanho diferente menor em um tipo de maior tamanho
+    * conversão implicita de dados feito pelo computador tambem eh chamdao de coerção
+    * conversão explicita é o cast
+        * (tipo) variavel
+    * char < int < long < float < double
+
+## Variável Global
+* Uma variavel que seja acessivel a todas as funcoes do programa
+
+## Variável Local e o Escopo de uma Variável
+* Variavel fora de um bloco de codigo[funcoes, loops, condicionais], tudo que esta entre inicio e fim das chaves,  so existe enquanto esse bloco estiver executando. Quando o bloco chegar ao fim
+a variavels era removida da memoria. Isto é o escopo de uma variavel. Variaveis locais tem escopo ligada ao bloco
+do codigo.
+
+## Variáveis Locais Estáticas (static)
+
+## Argumentos padrão para funções
