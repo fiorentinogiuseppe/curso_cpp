@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/cpp.dir/secao_8/VariavelEstatica.cpp.o  -o cpp 
+/usr/bin/c++  -g   CMakeFiles/cpp.dir/secao_9/DeclarandoPonteiros.cpp.o  -o cpp 

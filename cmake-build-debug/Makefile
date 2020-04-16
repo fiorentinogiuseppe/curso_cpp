@@ -123,32 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_8/VariavelEstatica.o: secao_8/VariavelEstatica.cpp.o
+secao_9/DeclarandoPonteiros.o: secao_9/DeclarandoPonteiros.cpp.o
 
-.PHONY : secao_8/VariavelEstatica.o
+.PHONY : secao_9/DeclarandoPonteiros.o
 
 # target to build an object file
-secao_8/VariavelEstatica.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_8/VariavelEstatica.cpp.o
-.PHONY : secao_8/VariavelEstatica.cpp.o
+secao_9/DeclarandoPonteiros.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_9/DeclarandoPonteiros.cpp.o
+.PHONY : secao_9/DeclarandoPonteiros.cpp.o
 
-secao_8/VariavelEstatica.i: secao_8/VariavelEstatica.cpp.i
+secao_9/DeclarandoPonteiros.i: secao_9/DeclarandoPonteiros.cpp.i
 
-.PHONY : secao_8/VariavelEstatica.i
+.PHONY : secao_9/DeclarandoPonteiros.i
 
 # target to preprocess a source file
-secao_8/VariavelEstatica.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_8/VariavelEstatica.cpp.i
-.PHONY : secao_8/VariavelEstatica.cpp.i
+secao_9/DeclarandoPonteiros.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_9/DeclarandoPonteiros.cpp.i
+.PHONY : secao_9/DeclarandoPonteiros.cpp.i
 
-secao_8/VariavelEstatica.s: secao_8/VariavelEstatica.cpp.s
+secao_9/DeclarandoPonteiros.s: secao_9/DeclarandoPonteiros.cpp.s
 
-.PHONY : secao_8/VariavelEstatica.s
+.PHONY : secao_9/DeclarandoPonteiros.s
 
 # target to generate assembly for a file
-secao_8/VariavelEstatica.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_8/VariavelEstatica.cpp.s
-.PHONY : secao_8/VariavelEstatica.cpp.s
+secao_9/DeclarandoPonteiros.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_9/DeclarandoPonteiros.cpp.s
+.PHONY : secao_9/DeclarandoPonteiros.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... secao_8/VariavelEstatica.o"
-	@echo "... secao_8/VariavelEstatica.i"
-	@echo "... secao_8/VariavelEstatica.s"
+	@echo "... secao_9/DeclarandoPonteiros.o"
+	@echo "... secao_9/DeclarandoPonteiros.i"
+	@echo "... secao_9/DeclarandoPonteiros.s"
 .PHONY : help
 
 
