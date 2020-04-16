@@ -84,31 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_17/Aluno.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_17/Aluno.h">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_17/Bibliotecario.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_17/Bibliotecario.h">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_17/CriaPessoa.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_17/Pessoa.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_17/Pessoa.h">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_17/Professor.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_17/Professor.h">
+		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_8/Exercicio1.cpp">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/CMakeLists.txt">
