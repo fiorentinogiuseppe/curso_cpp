@@ -84,13 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_8/Exercicio2.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_8/Matematica.cpp">
-			<Option target="cpp"/>
-		</Unit>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_8/Matematica.h">
+		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_8/VariavelEstatica.cpp">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/CMakeLists.txt">
