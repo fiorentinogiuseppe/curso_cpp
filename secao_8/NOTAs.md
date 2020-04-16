@@ -2,6 +2,7 @@
 
 ## Consolidando a Anatomia de uma função
 * Funcao é um bloco de codigo que pode ser chamado duraten a execucao
+* Fundamental para otimizar o uso de memoria
 * Anatomia 
 
 ```
@@ -47,3 +48,18 @@ codigo funcao a;
 codigo funcao b;
 codigo funcao c;
 ```
+
+## Conceito de Namespaces
+* Para resolver problemas de conflitos de nomes, etc foram criados os espaços de nomes ou Namespaces.
+*  Objetivo destas Namespaces é criar uma região que seja identificada de forma que você possa referenciar ela correr o risco de conflitos de nomes.
+* Sintaxe
+
+```
+namespace nome{
+    header
+
+}
+
+```
+
+* Assim é possível chamar as funções sem conflito de nome. Basta usar NomeDaNameSpace::Funcao

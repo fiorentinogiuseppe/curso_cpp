@@ -123,32 +123,59 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_8/Exercicio1.o: secao_8/Exercicio1.cpp.o
+secao_8/Exercicio2.o: secao_8/Exercicio2.cpp.o
 
-.PHONY : secao_8/Exercicio1.o
+.PHONY : secao_8/Exercicio2.o
 
 # target to build an object file
-secao_8/Exercicio1.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_8/Exercicio1.cpp.o
-.PHONY : secao_8/Exercicio1.cpp.o
+secao_8/Exercicio2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_8/Exercicio2.cpp.o
+.PHONY : secao_8/Exercicio2.cpp.o
 
-secao_8/Exercicio1.i: secao_8/Exercicio1.cpp.i
+secao_8/Exercicio2.i: secao_8/Exercicio2.cpp.i
 
-.PHONY : secao_8/Exercicio1.i
+.PHONY : secao_8/Exercicio2.i
 
 # target to preprocess a source file
-secao_8/Exercicio1.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_8/Exercicio1.cpp.i
-.PHONY : secao_8/Exercicio1.cpp.i
+secao_8/Exercicio2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_8/Exercicio2.cpp.i
+.PHONY : secao_8/Exercicio2.cpp.i
 
-secao_8/Exercicio1.s: secao_8/Exercicio1.cpp.s
+secao_8/Exercicio2.s: secao_8/Exercicio2.cpp.s
 
-.PHONY : secao_8/Exercicio1.s
+.PHONY : secao_8/Exercicio2.s
 
 # target to generate assembly for a file
-secao_8/Exercicio1.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_8/Exercicio1.cpp.s
-.PHONY : secao_8/Exercicio1.cpp.s
+secao_8/Exercicio2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_8/Exercicio2.cpp.s
+.PHONY : secao_8/Exercicio2.cpp.s
+
+secao_8/Matematica.o: secao_8/Matematica.cpp.o
+
+.PHONY : secao_8/Matematica.o
+
+# target to build an object file
+secao_8/Matematica.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_8/Matematica.cpp.o
+.PHONY : secao_8/Matematica.cpp.o
+
+secao_8/Matematica.i: secao_8/Matematica.cpp.i
+
+.PHONY : secao_8/Matematica.i
+
+# target to preprocess a source file
+secao_8/Matematica.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_8/Matematica.cpp.i
+.PHONY : secao_8/Matematica.cpp.i
+
+secao_8/Matematica.s: secao_8/Matematica.cpp.s
+
+.PHONY : secao_8/Matematica.s
+
+# target to generate assembly for a file
+secao_8/Matematica.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_8/Matematica.cpp.s
+.PHONY : secao_8/Matematica.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... secao_8/Exercicio1.o"
-	@echo "... secao_8/Exercicio1.i"
-	@echo "... secao_8/Exercicio1.s"
+	@echo "... secao_8/Exercicio2.o"
+	@echo "... secao_8/Exercicio2.i"
+	@echo "... secao_8/Exercicio2.s"
+	@echo "... secao_8/Matematica.o"
+	@echo "... secao_8/Matematica.i"
+	@echo "... secao_8/Matematica.s"
 .PHONY : help
 
 

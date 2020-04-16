@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/giuseppe/CLionProjects/curso_cpp/secao_8/Exercicio1.cpp
+/home/giuseppe/CLionProjects/curso_cpp/secao_8/Exercicio2.cpp
 iostream
 -
+Matematica.h
+/home/giuseppe/CLionProjects/curso_cpp/secao_8/Matematica.h
+
+/home/giuseppe/CLionProjects/curso_cpp/secao_8/Matematica.cpp
+cmath
+-
+
+/home/giuseppe/CLionProjects/curso_cpp/secao_8/Matematica.h
 
