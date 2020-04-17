@@ -123,32 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_9/Exercicio.o: secao_9/Exercicio.cpp.o
+secao_10/PassagemDeArgumentoPorPonteiro.o: secao_10/PassagemDeArgumentoPorPonteiro.cpp.o
 
-.PHONY : secao_9/Exercicio.o
+.PHONY : secao_10/PassagemDeArgumentoPorPonteiro.o
 
 # target to build an object file
-secao_9/Exercicio.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_9/Exercicio.cpp.o
-.PHONY : secao_9/Exercicio.cpp.o
+secao_10/PassagemDeArgumentoPorPonteiro.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_10/PassagemDeArgumentoPorPonteiro.cpp.o
+.PHONY : secao_10/PassagemDeArgumentoPorPonteiro.cpp.o
 
-secao_9/Exercicio.i: secao_9/Exercicio.cpp.i
+secao_10/PassagemDeArgumentoPorPonteiro.i: secao_10/PassagemDeArgumentoPorPonteiro.cpp.i
 
-.PHONY : secao_9/Exercicio.i
+.PHONY : secao_10/PassagemDeArgumentoPorPonteiro.i
 
 # target to preprocess a source file
-secao_9/Exercicio.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_9/Exercicio.cpp.i
-.PHONY : secao_9/Exercicio.cpp.i
+secao_10/PassagemDeArgumentoPorPonteiro.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_10/PassagemDeArgumentoPorPonteiro.cpp.i
+.PHONY : secao_10/PassagemDeArgumentoPorPonteiro.cpp.i
 
-secao_9/Exercicio.s: secao_9/Exercicio.cpp.s
+secao_10/PassagemDeArgumentoPorPonteiro.s: secao_10/PassagemDeArgumentoPorPonteiro.cpp.s
 
-.PHONY : secao_9/Exercicio.s
+.PHONY : secao_10/PassagemDeArgumentoPorPonteiro.s
 
 # target to generate assembly for a file
-secao_9/Exercicio.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_9/Exercicio.cpp.s
-.PHONY : secao_9/Exercicio.cpp.s
+secao_10/PassagemDeArgumentoPorPonteiro.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_10/PassagemDeArgumentoPorPonteiro.cpp.s
+.PHONY : secao_10/PassagemDeArgumentoPorPonteiro.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... secao_9/Exercicio.o"
-	@echo "... secao_9/Exercicio.i"
-	@echo "... secao_9/Exercicio.s"
+	@echo "... secao_10/PassagemDeArgumentoPorPonteiro.o"
+	@echo "... secao_10/PassagemDeArgumentoPorPonteiro.i"
+	@echo "... secao_10/PassagemDeArgumentoPorPonteiro.s"
 .PHONY : help
 
 

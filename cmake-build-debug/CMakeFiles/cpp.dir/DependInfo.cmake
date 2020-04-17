@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/giuseppe/CLionProjects/curso_cpp/secao_9/Exercicio.cpp" "/home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles/cpp.dir/secao_9/Exercicio.cpp.o"
+  "/home/giuseppe/CLionProjects/curso_cpp/secao_10/PassagemDeArgumentoPorPonteiro.cpp" "/home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles/cpp.dir/secao_10/PassagemDeArgumentoPorPonteiro.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
