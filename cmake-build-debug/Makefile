@@ -123,32 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_9/DeclarandoPonteiros.o: secao_9/DeclarandoPonteiros.cpp.o
+secao_9/Exercicio.o: secao_9/Exercicio.cpp.o
 
-.PHONY : secao_9/DeclarandoPonteiros.o
+.PHONY : secao_9/Exercicio.o
 
 # target to build an object file
-secao_9/DeclarandoPonteiros.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_9/DeclarandoPonteiros.cpp.o
-.PHONY : secao_9/DeclarandoPonteiros.cpp.o
+secao_9/Exercicio.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_9/Exercicio.cpp.o
+.PHONY : secao_9/Exercicio.cpp.o
 
-secao_9/DeclarandoPonteiros.i: secao_9/DeclarandoPonteiros.cpp.i
+secao_9/Exercicio.i: secao_9/Exercicio.cpp.i
 
-.PHONY : secao_9/DeclarandoPonteiros.i
+.PHONY : secao_9/Exercicio.i
 
 # target to preprocess a source file
-secao_9/DeclarandoPonteiros.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_9/DeclarandoPonteiros.cpp.i
-.PHONY : secao_9/DeclarandoPonteiros.cpp.i
+secao_9/Exercicio.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_9/Exercicio.cpp.i
+.PHONY : secao_9/Exercicio.cpp.i
 
-secao_9/DeclarandoPonteiros.s: secao_9/DeclarandoPonteiros.cpp.s
+secao_9/Exercicio.s: secao_9/Exercicio.cpp.s
 
-.PHONY : secao_9/DeclarandoPonteiros.s
+.PHONY : secao_9/Exercicio.s
 
 # target to generate assembly for a file
-secao_9/DeclarandoPonteiros.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_9/DeclarandoPonteiros.cpp.s
-.PHONY : secao_9/DeclarandoPonteiros.cpp.s
+secao_9/Exercicio.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_9/Exercicio.cpp.s
+.PHONY : secao_9/Exercicio.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... secao_9/DeclarandoPonteiros.o"
-	@echo "... secao_9/DeclarandoPonteiros.i"
-	@echo "... secao_9/DeclarandoPonteiros.s"
+	@echo "... secao_9/Exercicio.o"
+	@echo "... secao_9/Exercicio.i"
+	@echo "... secao_9/Exercicio.s"
 .PHONY : help
 
 

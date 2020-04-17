@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_9/DeclarandoPonteiros.cpp">
+		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_9/Exercicio.cpp">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/CMakeLists.txt">

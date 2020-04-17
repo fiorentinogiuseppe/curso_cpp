@@ -35,3 +35,24 @@ com valores quaisquer
     * Valor que esta dentro da variavel ponteiro, que é um endereço de memória
 * *ptr 
     * Representa o valor armazenado no endereço que o ponteiro está apontando
+
+##  Consolidando Ponteiros Genéricos void*
+* Tipo especial de ponteiro que pode apontar para qualquer tipo de dados.
+
+```
+    void * NomePonteiroGenerico;
+``` 
+* Pode apontar para qualquer tipo de dados.
+* Porem não pode ser desrefeenciado diretamente em vez disso precisa converter antes de fazer isso.
+* (char *) poteiro do tipo char ou capaz de apontar para um tipo char
+* (int *) poteiro do tipo char ou capaz de apontar para um tipo int
+* (float *) poteiro do tipo char ou capaz de apontar para um tipo float
+* (double *) poteiro do tipo char ou capaz de apontar para um tipo double
+
+## NOTA
+* A posição do \* não importa.
+* É um Erro clássico de tentar usar um ponteiro sem iniciar ele com algum endereço de memória.  
+* Primeiro deve-se inicializar e so então modificar o valor.
+* \* é  o operador de desreferenciamento. Ele indica O APONTADO POR, ou vá no endereço que está 
+apontando e traga o valor contido na variável que começa com este endereço de memória. 
+* Lembre que é preciso informar como o ponteiro void irá navegar na memória. Você faz isso com CAST para o tipo desejado. 
