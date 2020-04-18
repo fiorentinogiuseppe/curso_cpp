@@ -123,32 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_10/PassagemDeArgumentoPorPonteiro.o: secao_10/PassagemDeArgumentoPorPonteiro.cpp.o
+secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.o: secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.o
 
-.PHONY : secao_10/PassagemDeArgumentoPorPonteiro.o
+.PHONY : secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.o
 
 # target to build an object file
-secao_10/PassagemDeArgumentoPorPonteiro.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_10/PassagemDeArgumentoPorPonteiro.cpp.o
-.PHONY : secao_10/PassagemDeArgumentoPorPonteiro.cpp.o
+secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.o
+.PHONY : secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.o
 
-secao_10/PassagemDeArgumentoPorPonteiro.i: secao_10/PassagemDeArgumentoPorPonteiro.cpp.i
+secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.i: secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.i
 
-.PHONY : secao_10/PassagemDeArgumentoPorPonteiro.i
+.PHONY : secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.i
 
 # target to preprocess a source file
-secao_10/PassagemDeArgumentoPorPonteiro.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_10/PassagemDeArgumentoPorPonteiro.cpp.i
-.PHONY : secao_10/PassagemDeArgumentoPorPonteiro.cpp.i
+secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.i
+.PHONY : secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.i
 
-secao_10/PassagemDeArgumentoPorPonteiro.s: secao_10/PassagemDeArgumentoPorPonteiro.cpp.s
+secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.s: secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.s
 
-.PHONY : secao_10/PassagemDeArgumentoPorPonteiro.s
+.PHONY : secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.s
 
 # target to generate assembly for a file
-secao_10/PassagemDeArgumentoPorPonteiro.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_10/PassagemDeArgumentoPorPonteiro.cpp.s
-.PHONY : secao_10/PassagemDeArgumentoPorPonteiro.cpp.s
+secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.s
+.PHONY : secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... secao_10/PassagemDeArgumentoPorPonteiro.o"
-	@echo "... secao_10/PassagemDeArgumentoPorPonteiro.i"
-	@echo "... secao_10/PassagemDeArgumentoPorPonteiro.s"
+	@echo "... secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.o"
+	@echo "... secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.i"
+	@echo "... secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.s"
 .PHONY : help
 
 
