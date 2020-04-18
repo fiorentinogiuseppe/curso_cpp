@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp">
+		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/secao_12/AritimeticaDePonteirosP2.cpp">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/home/giuseppe/CLionProjects/curso_cpp/CMakeLists.txt">

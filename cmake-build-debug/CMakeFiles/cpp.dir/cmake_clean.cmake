@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp.dir/secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.o"
+  "CMakeFiles/cpp.dir/secao_12/AritimeticaDePonteirosP2.cpp.o"
   "cpp"
   "cpp.pdb"
 )

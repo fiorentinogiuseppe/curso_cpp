@@ -123,32 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.o: secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.o
+secao_12/AritimeticaDePonteirosP2.o: secao_12/AritimeticaDePonteirosP2.cpp.o
 
-.PHONY : secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.o
+.PHONY : secao_12/AritimeticaDePonteirosP2.o
 
 # target to build an object file
-secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.o
-.PHONY : secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.o
+secao_12/AritimeticaDePonteirosP2.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_12/AritimeticaDePonteirosP2.cpp.o
+.PHONY : secao_12/AritimeticaDePonteirosP2.cpp.o
 
-secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.i: secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.i
+secao_12/AritimeticaDePonteirosP2.i: secao_12/AritimeticaDePonteirosP2.cpp.i
 
-.PHONY : secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.i
+.PHONY : secao_12/AritimeticaDePonteirosP2.i
 
 # target to preprocess a source file
-secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.i
-.PHONY : secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.i
+secao_12/AritimeticaDePonteirosP2.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_12/AritimeticaDePonteirosP2.cpp.i
+.PHONY : secao_12/AritimeticaDePonteirosP2.cpp.i
 
-secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.s: secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.s
+secao_12/AritimeticaDePonteirosP2.s: secao_12/AritimeticaDePonteirosP2.cpp.s
 
-.PHONY : secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.s
+.PHONY : secao_12/AritimeticaDePonteirosP2.s
 
 # target to generate assembly for a file
-secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.s
-.PHONY : secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.cpp.s
+secao_12/AritimeticaDePonteirosP2.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_12/AritimeticaDePonteirosP2.cpp.s
+.PHONY : secao_12/AritimeticaDePonteirosP2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.o"
-	@echo "... secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.i"
-	@echo "... secao_12/PassandoArraysParaFuncoesCOMPONTEIROS.s"
+	@echo "... secao_12/AritimeticaDePonteirosP2.o"
+	@echo "... secao_12/AritimeticaDePonteirosP2.i"
+	@echo "... secao_12/AritimeticaDePonteirosP2.s"
 .PHONY : help
 
 
