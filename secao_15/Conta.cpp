@@ -96,3 +96,32 @@ void Conta::SetTitular(std::string Titular)
 void Conta::GetEnderecoThis(){
     std::cout << "this contem dentro o endereco" << this << std::endl;
 }
+
+Conta::~Conta(){
+    std::cout << "\nDestrutor Objeto Endereco: " << this << " executado!\n";
+}
+
+Conta::Conta(std::string Banco, int Agencia, int NumConta, std::string Titular, double Saldo)
+{
+    this->Banco = Banco;
+    this->Agencia = Agencia;
+    this->NumConta = NumConta;
+    this->Titular = Titular;
+    this->Saldo = Saldo;
+    std::cout << "\nConstrutor Objeto Endereco: " << this << " executado!\n";
+
+}
+
+Conta::Conta()
+{
+    //aqui mais uma vez o this está implítico
+    //seria o mesmo que:
+    this->Banco = "";
+    this->Agencia = 0;
+    this->NumConta = 0;
+    this->Titular = "";
+    this->Saldo = 0.0;
+    std::cout << "\nConstrutor Objeto Endereco: " << this << " executado!\n";
+
+}
+

@@ -28,3 +28,4 @@ delete(obeto)
 * Nao aceita parametros
 * E nao possui retorno
 * Na classe so pode haver 1 destrutor declarado e nao é obrigatorio
+* Cada {} cria um novo escopo 
