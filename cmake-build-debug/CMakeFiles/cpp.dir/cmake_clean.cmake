@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp.dir/secao_11/ArraysVetores1.cpp.o"
+  "CMakeFiles/cpp.dir/secao_11/ExercicioProposto2.cpp.o"
   "cpp"
   "cpp.pdb"
 )

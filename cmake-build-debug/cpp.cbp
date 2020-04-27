@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/giuseppefn/CLionProjects/curso_cpp/secao_11/ArraysVetores1.cpp">
+		<Unit filename="/home/giuseppefn/CLionProjects/curso_cpp/secao_11/ExercicioProposto2.cpp">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/home/giuseppefn/CLionProjects/curso_cpp/CMakeLists.txt">

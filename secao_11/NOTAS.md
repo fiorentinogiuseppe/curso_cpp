@@ -53,3 +53,50 @@ e nao um double
 <tipo> NomeDoArray [ QuantdadeDeElementos ] {dado1};
 
 ```
+
+## Enviando Arrays para Funções
+* O parametro da função deve ter a indicação que receberá um vetor
+
+```
+<tipo> FuncName(<tipo> NomeDoArray[], int TamVetor)
+```
+
+* Para enviar como argumento apenas o nome do array deve ser enviado, como uma variavel
+qualquer
+* Como não se sabe o tamanho do vetor é indicado enviar também como argumento
+o tamanho do vetor, contudo da para saber o tamanho utilizando o sizeof. Ou seja
+
+```
+sizeof(Array)/sizeof(<tipo>);
+```
+* Ou utiliza o size da biblioteca array
+
+## Trabalhando com Arrays Multidimensionais (Matrizes)
+* Declaração de um array de 2 dimensoes
+   * Tam_Dim_1 numero de linhas
+   * Tam_Dim_2 numero de colunas
+```
+<tipo> NomeDaMatriz [Tam_Dim1][Tam_Dia2]
+```
+* Declaração de um array de 3 dimensoes
+```
+<tipo> NomeDaMatriz [Tam_Dim1][Tam_Dia2][Tam_Dim3]
+```
+
+* Declaração de um array de n dimensoes
+```
+<tipo> NomeDaMatriz [Tam_Dim1][Tam_Dim2]...[Tam_Dimn]
+```
+
+## For Ranged Loop - Lendo Arrays com conceito de for each
+* Forma mais otimizada de percorrer elementos de um array
+
+```
+for(<tipo> VarRecebeCadaItemArray : NomeDoArray){
+    Instrucao;
+}
+```
+
+* auto o compilador detecta automaticamente o tipo de dados
+* std::fixed recebe os dados do setprecision e indica o numero de casas apos a virgula
+pois o default é a quantidade de numeros antes e depois da virgula

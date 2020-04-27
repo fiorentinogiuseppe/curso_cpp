@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/cpp.dir/secao_11/ArraysVetores1.cpp.o  -o cpp 
+/usr/bin/c++  -g   CMakeFiles/cpp.dir/secao_11/ExercicioProposto2.cpp.o  -o cpp 
