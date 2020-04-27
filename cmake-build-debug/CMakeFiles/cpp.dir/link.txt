@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/cpp.dir/secao_11/ExercicioProposto2.cpp.o  -o cpp 
+/usr/bin/c++  -g   CMakeFiles/cpp.dir/secao_15/Conta.cpp.o CMakeFiles/cpp.dir/secao_15/Banco.cpp.o  -o cpp 

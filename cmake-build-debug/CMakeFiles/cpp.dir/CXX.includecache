@@ -6,11 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/giuseppefn/CLionProjects/curso_cpp/secao_11/ExercicioProposto2.cpp
+/home/giuseppefn/CLionProjects/curso_cpp/secao_15/Banco.cpp
+Conta.h
+/home/giuseppefn/CLionProjects/curso_cpp/secao_15/Conta.h
+
+/home/giuseppefn/CLionProjects/curso_cpp/secao_15/Conta.cpp
+Conta.h
+/home/giuseppefn/CLionProjects/curso_cpp/secao_15/Conta.h
 iostream
 -
-locale
+string
 -
-iomanip
+
+/home/giuseppefn/CLionProjects/curso_cpp/secao_15/Conta.h
+iostream
+-
+string
 -
 

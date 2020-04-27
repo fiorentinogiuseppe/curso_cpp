@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/giuseppefn/CLionProjects/curso_cpp/secao_11/ExercicioProposto2.cpp">
+		<Unit filename="/home/giuseppefn/CLionProjects/curso_cpp/secao_15/Banco.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/home/giuseppefn/CLionProjects/curso_cpp/secao_15/Conta.cpp">
+			<Option target="cpp"/>
+		</Unit>
+		<Unit filename="/home/giuseppefn/CLionProjects/curso_cpp/secao_15/Conta.h">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/home/giuseppefn/CLionProjects/curso_cpp/CMakeLists.txt">

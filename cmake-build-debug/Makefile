@@ -123,32 +123,59 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_11/ExercicioProposto2.o: secao_11/ExercicioProposto2.cpp.o
+secao_15/Banco.o: secao_15/Banco.cpp.o
 
-.PHONY : secao_11/ExercicioProposto2.o
+.PHONY : secao_15/Banco.o
 
 # target to build an object file
-secao_11/ExercicioProposto2.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_11/ExercicioProposto2.cpp.o
-.PHONY : secao_11/ExercicioProposto2.cpp.o
+secao_15/Banco.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_15/Banco.cpp.o
+.PHONY : secao_15/Banco.cpp.o
 
-secao_11/ExercicioProposto2.i: secao_11/ExercicioProposto2.cpp.i
+secao_15/Banco.i: secao_15/Banco.cpp.i
 
-.PHONY : secao_11/ExercicioProposto2.i
+.PHONY : secao_15/Banco.i
 
 # target to preprocess a source file
-secao_11/ExercicioProposto2.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_11/ExercicioProposto2.cpp.i
-.PHONY : secao_11/ExercicioProposto2.cpp.i
+secao_15/Banco.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_15/Banco.cpp.i
+.PHONY : secao_15/Banco.cpp.i
 
-secao_11/ExercicioProposto2.s: secao_11/ExercicioProposto2.cpp.s
+secao_15/Banco.s: secao_15/Banco.cpp.s
 
-.PHONY : secao_11/ExercicioProposto2.s
+.PHONY : secao_15/Banco.s
 
 # target to generate assembly for a file
-secao_11/ExercicioProposto2.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_11/ExercicioProposto2.cpp.s
-.PHONY : secao_11/ExercicioProposto2.cpp.s
+secao_15/Banco.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_15/Banco.cpp.s
+.PHONY : secao_15/Banco.cpp.s
+
+secao_15/Conta.o: secao_15/Conta.cpp.o
+
+.PHONY : secao_15/Conta.o
+
+# target to build an object file
+secao_15/Conta.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_15/Conta.cpp.o
+.PHONY : secao_15/Conta.cpp.o
+
+secao_15/Conta.i: secao_15/Conta.cpp.i
+
+.PHONY : secao_15/Conta.i
+
+# target to preprocess a source file
+secao_15/Conta.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_15/Conta.cpp.i
+.PHONY : secao_15/Conta.cpp.i
+
+secao_15/Conta.s: secao_15/Conta.cpp.s
+
+.PHONY : secao_15/Conta.s
+
+# target to generate assembly for a file
+secao_15/Conta.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_15/Conta.cpp.s
+.PHONY : secao_15/Conta.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... secao_11/ExercicioProposto2.o"
-	@echo "... secao_11/ExercicioProposto2.i"
-	@echo "... secao_11/ExercicioProposto2.s"
+	@echo "... secao_15/Banco.o"
+	@echo "... secao_15/Banco.i"
+	@echo "... secao_15/Banco.s"
+	@echo "... secao_15/Conta.o"
+	@echo "... secao_15/Conta.i"
+	@echo "... secao_15/Conta.s"
 .PHONY : help
 
 
