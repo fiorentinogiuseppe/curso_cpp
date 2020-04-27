@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/giuseppe/CLionProjects/curso_cpp/secao_12/AritimeticaDePonteirosP2.cpp
+/home/giuseppefn/CLionProjects/curso_cpp/secao_11/ArraysVetores1.cpp
 iostream
+-
+string
 -
 

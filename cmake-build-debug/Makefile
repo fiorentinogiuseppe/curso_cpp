@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/111/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /var/lib/snapd/snap/clion/111/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/111/bin/cmake/linux/bin/cmake -E remove -f
+RM = /var/lib/snapd/snap/clion/111/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/giuseppe/CLionProjects/curso_cpp
+CMAKE_SOURCE_DIR = /home/giuseppefn/CLionProjects/curso_cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/111/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/var/lib/snapd/snap/clion/111/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/111/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/var/lib/snapd/snap/clion/111/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles /home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles /home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/giuseppe/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_12/AritimeticaDePonteirosP2.o: secao_12/AritimeticaDePonteirosP2.cpp.o
+secao_11/ArraysVetores1.o: secao_11/ArraysVetores1.cpp.o
 
-.PHONY : secao_12/AritimeticaDePonteirosP2.o
+.PHONY : secao_11/ArraysVetores1.o
 
 # target to build an object file
-secao_12/AritimeticaDePonteirosP2.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_12/AritimeticaDePonteirosP2.cpp.o
-.PHONY : secao_12/AritimeticaDePonteirosP2.cpp.o
+secao_11/ArraysVetores1.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_11/ArraysVetores1.cpp.o
+.PHONY : secao_11/ArraysVetores1.cpp.o
 
-secao_12/AritimeticaDePonteirosP2.i: secao_12/AritimeticaDePonteirosP2.cpp.i
+secao_11/ArraysVetores1.i: secao_11/ArraysVetores1.cpp.i
 
-.PHONY : secao_12/AritimeticaDePonteirosP2.i
+.PHONY : secao_11/ArraysVetores1.i
 
 # target to preprocess a source file
-secao_12/AritimeticaDePonteirosP2.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_12/AritimeticaDePonteirosP2.cpp.i
-.PHONY : secao_12/AritimeticaDePonteirosP2.cpp.i
+secao_11/ArraysVetores1.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_11/ArraysVetores1.cpp.i
+.PHONY : secao_11/ArraysVetores1.cpp.i
 
-secao_12/AritimeticaDePonteirosP2.s: secao_12/AritimeticaDePonteirosP2.cpp.s
+secao_11/ArraysVetores1.s: secao_11/ArraysVetores1.cpp.s
 
-.PHONY : secao_12/AritimeticaDePonteirosP2.s
+.PHONY : secao_11/ArraysVetores1.s
 
 # target to generate assembly for a file
-secao_12/AritimeticaDePonteirosP2.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_12/AritimeticaDePonteirosP2.cpp.s
-.PHONY : secao_12/AritimeticaDePonteirosP2.cpp.s
+secao_11/ArraysVetores1.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_11/ArraysVetores1.cpp.s
+.PHONY : secao_11/ArraysVetores1.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... secao_12/AritimeticaDePonteirosP2.o"
-	@echo "... secao_12/AritimeticaDePonteirosP2.i"
-	@echo "... secao_12/AritimeticaDePonteirosP2.s"
+	@echo "... secao_11/ArraysVetores1.o"
+	@echo "... secao_11/ArraysVetores1.i"
+	@echo "... secao_11/ArraysVetores1.s"
 .PHONY : help
 
 
