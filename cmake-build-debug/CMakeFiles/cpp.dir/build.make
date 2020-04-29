@@ -57,45 +57,30 @@ include CMakeFiles/cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp.dir/flags.make
 
-CMakeFiles/cpp.dir/secao_15/Conta.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/secao_15/Conta.cpp.o: ../secao_15/Conta.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/secao_15/Conta.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_15/Conta.cpp.o -c /home/giuseppefn/CLionProjects/curso_cpp/secao_15/Conta.cpp
+CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o: ../secao_16/StructPorValorPorReferencia.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o -c /home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructPorValorPorReferencia.cpp
 
-CMakeFiles/cpp.dir/secao_15/Conta.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_15/Conta.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppefn/CLionProjects/curso_cpp/secao_15/Conta.cpp > CMakeFiles/cpp.dir/secao_15/Conta.cpp.i
+CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructPorValorPorReferencia.cpp > CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.i
 
-CMakeFiles/cpp.dir/secao_15/Conta.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_15/Conta.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppefn/CLionProjects/curso_cpp/secao_15/Conta.cpp -o CMakeFiles/cpp.dir/secao_15/Conta.cpp.s
-
-CMakeFiles/cpp.dir/secao_15/Banco.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/secao_15/Banco.cpp.o: ../secao_15/Banco.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/secao_15/Banco.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_15/Banco.cpp.o -c /home/giuseppefn/CLionProjects/curso_cpp/secao_15/Banco.cpp
-
-CMakeFiles/cpp.dir/secao_15/Banco.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_15/Banco.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppefn/CLionProjects/curso_cpp/secao_15/Banco.cpp > CMakeFiles/cpp.dir/secao_15/Banco.cpp.i
-
-CMakeFiles/cpp.dir/secao_15/Banco.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_15/Banco.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppefn/CLionProjects/curso_cpp/secao_15/Banco.cpp -o CMakeFiles/cpp.dir/secao_15/Banco.cpp.s
+CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructPorValorPorReferencia.cpp -o CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.s
 
 # Object files for target cpp
 cpp_OBJECTS = \
-"CMakeFiles/cpp.dir/secao_15/Conta.cpp.o" \
-"CMakeFiles/cpp.dir/secao_15/Banco.cpp.o"
+"CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
-cpp: CMakeFiles/cpp.dir/secao_15/Conta.cpp.o
-cpp: CMakeFiles/cpp.dir/secao_15/Banco.cpp.o
+cpp: CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

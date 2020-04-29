@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp.dir/secao_15/Banco.cpp.o"
-  "CMakeFiles/cpp.dir/secao_15/Conta.cpp.o"
+  "CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o"
   "cpp"
   "cpp.pdb"
 )

@@ -123,59 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_15/Banco.o: secao_15/Banco.cpp.o
+secao_16/StructPorValorPorReferencia.o: secao_16/StructPorValorPorReferencia.cpp.o
 
-.PHONY : secao_15/Banco.o
-
-# target to build an object file
-secao_15/Banco.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_15/Banco.cpp.o
-.PHONY : secao_15/Banco.cpp.o
-
-secao_15/Banco.i: secao_15/Banco.cpp.i
-
-.PHONY : secao_15/Banco.i
-
-# target to preprocess a source file
-secao_15/Banco.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_15/Banco.cpp.i
-.PHONY : secao_15/Banco.cpp.i
-
-secao_15/Banco.s: secao_15/Banco.cpp.s
-
-.PHONY : secao_15/Banco.s
-
-# target to generate assembly for a file
-secao_15/Banco.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_15/Banco.cpp.s
-.PHONY : secao_15/Banco.cpp.s
-
-secao_15/Conta.o: secao_15/Conta.cpp.o
-
-.PHONY : secao_15/Conta.o
+.PHONY : secao_16/StructPorValorPorReferencia.o
 
 # target to build an object file
-secao_15/Conta.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_15/Conta.cpp.o
-.PHONY : secao_15/Conta.cpp.o
+secao_16/StructPorValorPorReferencia.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o
+.PHONY : secao_16/StructPorValorPorReferencia.cpp.o
 
-secao_15/Conta.i: secao_15/Conta.cpp.i
+secao_16/StructPorValorPorReferencia.i: secao_16/StructPorValorPorReferencia.cpp.i
 
-.PHONY : secao_15/Conta.i
+.PHONY : secao_16/StructPorValorPorReferencia.i
 
 # target to preprocess a source file
-secao_15/Conta.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_15/Conta.cpp.i
-.PHONY : secao_15/Conta.cpp.i
+secao_16/StructPorValorPorReferencia.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.i
+.PHONY : secao_16/StructPorValorPorReferencia.cpp.i
 
-secao_15/Conta.s: secao_15/Conta.cpp.s
+secao_16/StructPorValorPorReferencia.s: secao_16/StructPorValorPorReferencia.cpp.s
 
-.PHONY : secao_15/Conta.s
+.PHONY : secao_16/StructPorValorPorReferencia.s
 
 # target to generate assembly for a file
-secao_15/Conta.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_15/Conta.cpp.s
-.PHONY : secao_15/Conta.cpp.s
+secao_16/StructPorValorPorReferencia.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.s
+.PHONY : secao_16/StructPorValorPorReferencia.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... secao_15/Banco.o"
-	@echo "... secao_15/Banco.i"
-	@echo "... secao_15/Banco.s"
-	@echo "... secao_15/Conta.o"
-	@echo "... secao_15/Conta.i"
-	@echo "... secao_15/Conta.s"
+	@echo "... secao_16/StructPorValorPorReferencia.o"
+	@echo "... secao_16/StructPorValorPorReferencia.i"
+	@echo "... secao_16/StructPorValorPorReferencia.s"
 .PHONY : help
 
 
