@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /var/lib/snapd/snap/clion/111/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /var/lib/snapd/snap/clion/112/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /var/lib/snapd/snap/clion/111/bin/cmake/linux/bin/cmake -E remove -f
+RM = /var/lib/snapd/snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/var/lib/snapd/snap/clion/111/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/var/lib/snapd/snap/clion/112/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/var/lib/snapd/snap/clion/111/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/var/lib/snapd/snap/clion/112/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_16/StructPorValorPorReferencia.o: secao_16/StructPorValorPorReferencia.cpp.o
+secao_16/StructsAninhadas.o: secao_16/StructsAninhadas.cpp.o
 
-.PHONY : secao_16/StructPorValorPorReferencia.o
+.PHONY : secao_16/StructsAninhadas.o
 
 # target to build an object file
-secao_16/StructPorValorPorReferencia.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o
-.PHONY : secao_16/StructPorValorPorReferencia.cpp.o
+secao_16/StructsAninhadas.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o
+.PHONY : secao_16/StructsAninhadas.cpp.o
 
-secao_16/StructPorValorPorReferencia.i: secao_16/StructPorValorPorReferencia.cpp.i
+secao_16/StructsAninhadas.i: secao_16/StructsAninhadas.cpp.i
 
-.PHONY : secao_16/StructPorValorPorReferencia.i
+.PHONY : secao_16/StructsAninhadas.i
 
 # target to preprocess a source file
-secao_16/StructPorValorPorReferencia.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.i
-.PHONY : secao_16/StructPorValorPorReferencia.cpp.i
+secao_16/StructsAninhadas.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.i
+.PHONY : secao_16/StructsAninhadas.cpp.i
 
-secao_16/StructPorValorPorReferencia.s: secao_16/StructPorValorPorReferencia.cpp.s
+secao_16/StructsAninhadas.s: secao_16/StructsAninhadas.cpp.s
 
-.PHONY : secao_16/StructPorValorPorReferencia.s
+.PHONY : secao_16/StructsAninhadas.s
 
 # target to generate assembly for a file
-secao_16/StructPorValorPorReferencia.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.s
-.PHONY : secao_16/StructPorValorPorReferencia.cpp.s
+secao_16/StructsAninhadas.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.s
+.PHONY : secao_16/StructsAninhadas.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... secao_16/StructPorValorPorReferencia.o"
-	@echo "... secao_16/StructPorValorPorReferencia.i"
-	@echo "... secao_16/StructPorValorPorReferencia.s"
+	@echo "... secao_16/StructsAninhadas.o"
+	@echo "... secao_16/StructsAninhadas.i"
+	@echo "... secao_16/StructsAninhadas.s"
 .PHONY : help
 
 

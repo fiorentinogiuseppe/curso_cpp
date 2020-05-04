@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /var/lib/snapd/snap/clion/111/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /var/lib/snapd/snap/clion/112/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /var/lib/snapd/snap/clion/111/bin/cmake/linux/bin/cmake -E remove -f
+RM = /var/lib/snapd/snap/clion/112/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -57,27 +57,27 @@ include CMakeFiles/cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp.dir/flags.make
 
-CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o: ../secao_16/StructPorValorPorReferencia.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o -c /home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructPorValorPorReferencia.cpp
+CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o: ../secao_16/StructsAninhadas.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o -c /home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructsAninhadas.cpp
 
-CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructPorValorPorReferencia.cpp > CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.i
+CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructsAninhadas.cpp > CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.i
 
-CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructPorValorPorReferencia.cpp -o CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.s
+CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructsAninhadas.cpp -o CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.s
 
 # Object files for target cpp
 cpp_OBJECTS = \
-"CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o"
+"CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
-cpp: CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o
+cpp: CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp"

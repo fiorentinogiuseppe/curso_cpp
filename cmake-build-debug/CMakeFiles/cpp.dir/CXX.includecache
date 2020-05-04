@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/giuseppefn/CLionProjects/curso_cpp/secao_16/ArrayStructs.cpp
+/home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructPorValorPorReferencia.cpp
 iostream
+-
+iomanip
 -
 

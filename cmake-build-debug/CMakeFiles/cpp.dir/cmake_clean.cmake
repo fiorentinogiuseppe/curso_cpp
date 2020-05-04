@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp.dir/secao_16/StructPorValorPorReferencia.cpp.o"
+  "CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o"
   "cpp"
   "cpp.pdb"
 )

@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructPorValorPorReferencia.cpp">
+		<Unit filename="/home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructsAninhadas.cpp">
 			<Option target="cpp"/>
 		</Unit>
 		<Unit filename="/home/giuseppefn/CLionProjects/curso_cpp/CMakeLists.txt">
