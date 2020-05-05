@@ -123,32 +123,59 @@ cpp/fast:
 	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/build
 .PHONY : cpp/fast
 
-secao_16/StructsAninhadas.o: secao_16/StructsAninhadas.cpp.o
+secao_16/TyperdefComStructure.o: secao_16/TyperdefComStructure.cpp.o
 
-.PHONY : secao_16/StructsAninhadas.o
+.PHONY : secao_16/TyperdefComStructure.o
 
 # target to build an object file
-secao_16/StructsAninhadas.cpp.o:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o
-.PHONY : secao_16/StructsAninhadas.cpp.o
+secao_16/TyperdefComStructure.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.o
+.PHONY : secao_16/TyperdefComStructure.cpp.o
 
-secao_16/StructsAninhadas.i: secao_16/StructsAninhadas.cpp.i
+secao_16/TyperdefComStructure.i: secao_16/TyperdefComStructure.cpp.i
 
-.PHONY : secao_16/StructsAninhadas.i
+.PHONY : secao_16/TyperdefComStructure.i
 
 # target to preprocess a source file
-secao_16/StructsAninhadas.cpp.i:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.i
-.PHONY : secao_16/StructsAninhadas.cpp.i
+secao_16/TyperdefComStructure.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.i
+.PHONY : secao_16/TyperdefComStructure.cpp.i
 
-secao_16/StructsAninhadas.s: secao_16/StructsAninhadas.cpp.s
+secao_16/TyperdefComStructure.s: secao_16/TyperdefComStructure.cpp.s
 
-.PHONY : secao_16/StructsAninhadas.s
+.PHONY : secao_16/TyperdefComStructure.s
 
 # target to generate assembly for a file
-secao_16/StructsAninhadas.cpp.s:
-	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.s
-.PHONY : secao_16/StructsAninhadas.cpp.s
+secao_16/TyperdefComStructure.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.s
+.PHONY : secao_16/TyperdefComStructure.cpp.s
+
+secao_16/UtilizandoTypeDef.o: secao_16/UtilizandoTypeDef.cpp.o
+
+.PHONY : secao_16/UtilizandoTypeDef.o
+
+# target to build an object file
+secao_16/UtilizandoTypeDef.cpp.o:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.o
+.PHONY : secao_16/UtilizandoTypeDef.cpp.o
+
+secao_16/UtilizandoTypeDef.i: secao_16/UtilizandoTypeDef.cpp.i
+
+.PHONY : secao_16/UtilizandoTypeDef.i
+
+# target to preprocess a source file
+secao_16/UtilizandoTypeDef.cpp.i:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.i
+.PHONY : secao_16/UtilizandoTypeDef.cpp.i
+
+secao_16/UtilizandoTypeDef.s: secao_16/UtilizandoTypeDef.cpp.s
+
+.PHONY : secao_16/UtilizandoTypeDef.s
+
+# target to generate assembly for a file
+secao_16/UtilizandoTypeDef.cpp.s:
+	$(MAKE) -f CMakeFiles/cpp.dir/build.make CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.s
+.PHONY : secao_16/UtilizandoTypeDef.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... cpp"
-	@echo "... secao_16/StructsAninhadas.o"
-	@echo "... secao_16/StructsAninhadas.i"
-	@echo "... secao_16/StructsAninhadas.s"
+	@echo "... secao_16/TyperdefComStructure.o"
+	@echo "... secao_16/TyperdefComStructure.i"
+	@echo "... secao_16/TyperdefComStructure.s"
+	@echo "... secao_16/UtilizandoTypeDef.o"
+	@echo "... secao_16/UtilizandoTypeDef.i"
+	@echo "... secao_16/UtilizandoTypeDef.s"
 .PHONY : help
 
 

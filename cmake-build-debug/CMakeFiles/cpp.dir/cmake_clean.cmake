@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o"
+  "CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.o"
+  "CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.o"
   "cpp"
   "cpp.pdb"
 )

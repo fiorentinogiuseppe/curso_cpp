@@ -24,3 +24,5 @@ da struct podera ser omitida ja que a declaracao ja ocorreu
 diferente de classes que é privado
 * Utilizado para modelas tipos de dados abstratos
 
+# Relembrando typedef
+* Apenas um alias para tipos e structures

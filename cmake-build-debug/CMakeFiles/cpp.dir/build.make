@@ -57,30 +57,45 @@ include CMakeFiles/cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/cpp.dir/flags.make
 
-CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o: CMakeFiles/cpp.dir/flags.make
-CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o: ../secao_16/StructsAninhadas.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o -c /home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructsAninhadas.cpp
+CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.o: ../secao_16/UtilizandoTypeDef.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.o -c /home/giuseppefn/CLionProjects/curso_cpp/secao_16/UtilizandoTypeDef.cpp
 
-CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructsAninhadas.cpp > CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.i
+CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppefn/CLionProjects/curso_cpp/secao_16/UtilizandoTypeDef.cpp > CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.i
 
-CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppefn/CLionProjects/curso_cpp/secao_16/StructsAninhadas.cpp -o CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.s
+CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppefn/CLionProjects/curso_cpp/secao_16/UtilizandoTypeDef.cpp -o CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.s
+
+CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.o: CMakeFiles/cpp.dir/flags.make
+CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.o: ../secao_16/TyperdefComStructure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.o -c /home/giuseppefn/CLionProjects/curso_cpp/secao_16/TyperdefComStructure.cpp
+
+CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/giuseppefn/CLionProjects/curso_cpp/secao_16/TyperdefComStructure.cpp > CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.i
+
+CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/giuseppefn/CLionProjects/curso_cpp/secao_16/TyperdefComStructure.cpp -o CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.s
 
 # Object files for target cpp
 cpp_OBJECTS = \
-"CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o"
+"CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.o" \
+"CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.o"
 
 # External object files for target cpp
 cpp_EXTERNAL_OBJECTS =
 
-cpp: CMakeFiles/cpp.dir/secao_16/StructsAninhadas.cpp.o
+cpp: CMakeFiles/cpp.dir/secao_16/UtilizandoTypeDef.cpp.o
+cpp: CMakeFiles/cpp.dir/secao_16/TyperdefComStructure.cpp.o
 cpp: CMakeFiles/cpp.dir/build.make
 cpp: CMakeFiles/cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/giuseppefn/CLionProjects/curso_cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
